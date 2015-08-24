@@ -11,7 +11,45 @@
 |
 */
 
-Route::get('/', function()
+Route::get('/','HomeController@showWelcome');
+
+Route::resource('workout', 'WorkoutController');
+
+Route::get('/contact', 'HomeController@showContact');
+
+Route::get('/resume', 'HomeController@showResume');
+
+Route::resource('posts', 'PostsController');
+
+Route::get('orm-test', function ()
 {
-	return View::make('hello');
+    $post1 = new Post();
+    $post1->title = 'Eloquent is awesome';
+    $post1->body = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi reprehenderit rerum beatae omnis eius sit totam, illo fugit magni, earum sapiente iste suscipit nam. Alias modi, minus deserunt commodi cumque.';
+    $post1->save();
+
+    $post2 = new Post();
+    $post2->title = 'Eloquent is awesome';
+    $post2->body = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus labore, reprehenderit quod debitis eveniet corporis obcaecati magnam dolorem, atque quia voluptates nemo, voluptatum odio et saepe magni, sit blanditiis ipsa.';
+    $post2->save();
+});
+
+Route::get('/sayhello/{name?}', function($name = null)
+{
+    return View::make('my-first-view')->with(compact('name'));
+});
+
+Route::get('/sayhello/{name}', function($name)
+{
+    if ($name == "Chris") {
+        return Redirect::to('/');
+    } else {
+        return "Hello, $name!";
+    }
+});
+
+Route::get('/rolldice/{number}', function($number)
+{
+    $dice = mt_rand(1,6);
+    return View::make('rolldice')->with(compact('number','dice'));
 });
