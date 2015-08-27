@@ -2,6 +2,13 @@
 
 class PostsController extends BaseController {
 
+
+	public function __construct()
+	{
+		parent::__construct();
+		$this->beforeFilter('auth', array('except' => array('index', 'show')));
+	}
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -9,8 +16,22 @@ class PostsController extends BaseController {
 	 */
 	public function index()
 	{
-		$posts = Post::paginate(4);
-		return View::make('posts.index')->with('posts',$posts);
+
+		if(Input::has('search')){
+			//PAGINATES QUERY
+			$query = Post::with('user');
+			$query->orWhereHas('user', function($q){
+				$search = Input::get('search');
+				$q->where('title', 'like', "%$search%");
+			});
+			// $query = Post::with('user');
+			$posts = $query->orderBy('created_at', 'desc')->paginate(4);
+			return View::make('posts.index')->with(['posts'=> $posts]);
+		}else{
+			//PAGINATES ALL
+			$posts = Post::paginate(4);
+			return View::make('posts.index')->with('posts',$posts);
+		}
 	}
 
 
@@ -39,6 +60,8 @@ class PostsController extends BaseController {
 
 	    // attempt validation
 	    if ($validator->fails()) {
+	    	Log::info('Validator failed', Input::all());
+	    	Session::flash('errorMessage', 'Something went wrong please refer to the errors below:');
 	        // validation failed, redirect to the post create page with validation errors and old inputs
 	        return Redirect::back()->withInput()->withErrors($validator);
 	    } else {
@@ -46,8 +69,9 @@ class PostsController extends BaseController {
 			$post = new Post();
 		    $post->title = Input::get('title');
 		    $post->body = Input::get('body');
+		    $post->user_id = Auth::id();
 		    $post->save();
-
+	    	Session::flash('successMessage', 'Your post was created successfully');
 		    return Redirect::action('PostsController@index');
 		}
     }
@@ -62,6 +86,12 @@ class PostsController extends BaseController {
 	public function show($id)
 	{
 		$post = Post::find($id);
+
+		if(!$post){
+			Session::flash('errorMessage', "Something went wrong, no post with id: $id found!");
+			App::abort(404);
+		}
+		Log::info("post of id $id found");
 		return View::make('posts.show')->with('posts',$post);
 	}
 
@@ -93,14 +123,21 @@ class PostsController extends BaseController {
 
 	    // attempt validation
 	    if ($validator->fails()) {
+	    	Session::flash('errorMessage', 'Something went wrong please refer to the errors below:');
 	        // validation failed, redirect to the post create page with validation errors and old inputs
 	        return Redirect::back()->withInput()->withErrors($validator);
 	    } else {
 			$post = Post::find($id);
+
+			if(!$post){
+				Session::flash('errorMessage', "Something went wrong, no post with id: $id found!");
+				App::abort(404);
+			}
+
 			$post->title = Input::get('title');
 		    $post->body = Input::get('body');
 		    $post->save();
-
+	    	Session::flash('successMessage', 'Your post was updated successfully');
 		    return Redirect::action('PostsController@index');
 		}
 	}
@@ -114,9 +151,15 @@ class PostsController extends BaseController {
 	 */
 	public function destroy($id)
 	{
-		$post = Post::find($id);
-		$post->delete();
 
+		Post::find($id)->delete();
+
+		if(!$post){
+			Session::flash('errorMessage', "Something went wrong, no post with id: $id found!");
+			App::abort(404);
+		}
+
+    	Session::flash('successMessage', 'Your post was deleted successfully');
 		return Redirect::action('PostsController@index');
 	}
 

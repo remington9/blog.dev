@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @foreach ($posts as $key => $value)
+    @forelse ($posts as $key => $value)
         <div>
             <div>
                 <div>
@@ -10,12 +10,16 @@
                    <strong><u>{{{ $value->title }}}</u></strong>
                    </a>
                     <ul>
-                        <li>{{{ $value->body }}}</li>
+                        @if(strlen($value->body) > 60)
+                        {{{ substr($value->body, 0, 164) . "..." }}}
+                        @endif
                     </ul>
                 </div>
             </div><br>
         </div>
-    @endforeach
+    @empty
+        <h1>No results for your search. =(</h1>
+    @endforelse
 
     {{ $posts->links() }}
 

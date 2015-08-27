@@ -12,15 +12,26 @@
 */
 
 Route::get('/','HomeController@showWelcome');
-
-Route::resource('workout', 'WorkoutController');
-
+//navbar routes
 Route::get('/contact', 'HomeController@showContact');
-
 Route::get('/resume', 'HomeController@showResume');
 
+//posts routes
 Route::resource('posts', 'PostsController');
 
+//login routes
+Route::get('/login', 'HomeController@showLogin');
+Route::post('/login', 'HomeController@doLogin');
+Route::get('/logout', 'HomeController@doLogout');
+//Workout
+Route::resource('workout', 'WorkoutController');
+Route::get('/profile', 'WorkoutController@profile');
+
+Route::get('/loginWO', 'WorkoutController@showLogin');
+Route::post('/loginWO', 'WorkoutController@doLogin');
+Route::get('/logoutWO', 'WorkoutController@doLogout');
+
+//exercises
 Route::get('orm-test', function ()
 {
     $post1 = new Post();
