@@ -14,6 +14,9 @@
                         {{{ substr($value->body, 0, 164) . "..." }}}
                         @endif
                     </ul>
+                    <a class="ads-href" href="{{{action('PostsController@show', $value->id)}}}">
+                   <u>{{{ $value->user->first_name }}}</u>
+                   </a>
                 </div>
             </div><br>
         </div>

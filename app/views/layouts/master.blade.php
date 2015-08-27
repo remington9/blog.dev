@@ -24,7 +24,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{{action('HomeController@showWelcome')}}}">{{{ Auth::user()->first_name }}}</a>
+                <a class="navbar-brand" href="{{{action('HomeController@showWelcome')}}}">@if (!empty(Auth::user()->first_name)) {{{ Auth::user()->first_name }}}@else {{{ "Welcome" }}}@endif</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

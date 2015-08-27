@@ -32,10 +32,10 @@ hr{
   }
 }
 
-.jumbotron{
+.banner{
   width:100%;
-  height: 650px;
-  background-image: url(/img/workout/banner.jpg); 
+  height: 700px;
+  margin-bottom: 100px;
 }
 /*
  * Masthead for nav

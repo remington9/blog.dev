@@ -3,7 +3,7 @@
 <head>
     @yield('title')
 
-    <title>Laravel Blog</title>
+    <title>Workout Tracker</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
