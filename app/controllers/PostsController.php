@@ -20,16 +20,26 @@ class PostsController extends BaseController {
 		if(Input::has('search')){
 			//PAGINATES QUERY
 			$query = Post::with('user');
-			$query->orWhereHas('user', function($q){
+			$query->WhereHas('user', function($q){
 				$search = Input::get('search');
 				$q->where('title', 'like', "%$search%");
 			});
 			// $query = Post::with('user');
-			$posts = $query->orderBy('created_at', 'desc')->paginate(4);
+			$posts = $query->orderBy('updated_at', 'desc')->paginate(4);
+			return View::make('posts.index')->with(['posts'=> $posts]);
+		}elseif(Input::has('user')){
+			//PAGINATES QUERY
+			$query = Post::with('user');
+			$query->WhereHas('user', function($q){
+				$user = Input::get('user');
+				$q->where('first_name', "$user");
+			});
+			// $query = Post::with('user');
+			$posts = $query->orderBy('updated_at', 'desc')->paginate(4);
 			return View::make('posts.index')->with(['posts'=> $posts]);
 		}else{
 			//PAGINATES ALL
-			$posts = Post::paginate(4);
+			$posts = Post::with('user')->orderBy('updated_at', 'desc')->paginate(4);
 			return View::make('posts.index')->with('posts',$posts);
 		}
 	}

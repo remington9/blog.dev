@@ -10,11 +10,11 @@
                    <strong><u>{{{ $value->title }}}</u></strong>
                    </a>
                     <ul>
-                        @if(strlen($value->body) > 60)
+                        
                         {{{ substr($value->body, 0, 164) . "..." }}}
-                        @endif
+                        
                     </ul>
-                    <a class="ads-href" href="{{{action('PostsController@show', $value->id)}}}">
+                    <a class="ads-href" href="posts/?user={{{ $value->user->first_name }}}">
                    <u>{{{ $value->user->first_name }}}</u>
                    </a>
                 </div>
