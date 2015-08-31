@@ -162,12 +162,12 @@ class PostsController extends BaseController {
 	public function destroy($id)
 	{
 
-		Post::find($id)->delete();
-
+		$post = Post::find($id);
 		if(!$post){
 			Session::flash('errorMessage', "Something went wrong, no post with id: $id found!");
 			App::abort(404);
 		}
+		Post::find($id)->delete();
 
     	Session::flash('successMessage', 'Your post was deleted successfully');
 		return Redirect::action('PostsController@index');

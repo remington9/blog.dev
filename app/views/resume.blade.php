@@ -163,34 +163,202 @@
     </section>
     <!-- //PROFILE SECTION END -->
      <!-- PORTFOLIO SECTION START -->
-    <section id="portfolio" class="section">
-        <div class="container-fluid section-wrapper">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="section-title uppercase">My Latest Work</h2>
-                        <p class="section-subtitle">I'm looking to expand my portfolio while I'm on top and while I'm young.</p>
-                        <span class="divider center"></span>
-                        	<div class="row featurette">
-                            <div class="col-md-7">
-                              <h2 class="featurette-heading">Oxbilt.us <span class="text-muted">It'll blow your mind.</span></h2>
-                              <p class="lead">This is a simple website i built for my uncle's company.</p>
+    <div class="portfolio" id="portfolio">
+                    <div class="row">
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="http://www.oxbilt.us" class="zoom" title="Oxbilt.us">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+
+                                    <a href="http://www.oxbilt.us" class="external-link" target="_blank">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Oxbilt.us</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="/img/resume/oxbilt.png" alt="" class="img-responsive mole">
                             </div>
-                            <div class="col-md-5">
-                            <a href="http://www.oxbilt.us">
-                              <img class="featurette-image img-rounded center-block" data-src="holder.js/500x500/auto" alt="500x500" width="250" height="300" src="/img/resume/oxbilt.png" rendered="true" >
-                            </a>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="{{{ action('HomeController@showSimon') }}}" class="zoom" title="simon">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+
+                                    <a href="{{{ action('HomeController@showSimon') }}}" class="external-link" target="_blank">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Simple Simon Says Game</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="/img/resume/simon1.png" alt="" class="img-responsive mole">
                             </div>
-                          </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="{{{ action('HomeController@showWhackamole') }}}" class="zoom" title="whackamole">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+
+                                    <a href="{{{ action('HomeController@showWhackamole') }}}" class="external-link" target="_blank">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>DBZ Whack-a-mole game</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="/img/resume/whackamole.png" alt="" class="img-responsive mole">
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="{{{ action('HomeController@showWeather') }}}" class="zoom" title="Speed Projects">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+
+                                    <a href="{{{ action('HomeController@showWeather') }}}" class="external-link" target="_blank">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Weather Forcast with integrated Google maps</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="/img/resume/weather.png" alt="" class="img-responsive mole">
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="http://www.harolds-plumbing.com" class="zoom" title="Wooden Rhinoceros Beetle">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+
+                                    <a href="http://www.harolds-plumbing.com" class="external-link" target="_blank">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>harolds-plumbing.com</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="/img/resume/harolds-plumbing.png" alt="" class="img-responsive mole">
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="/img/resume/simon1.png" class="zoom" title="The First Encounter">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+
+                                    <a href="single-portfolio-2.html" class="external-link" target="_blank">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Craigslist Mockup to post Ads on</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="/img/resume/adlister.png" alt="" class="img-responsive mole">
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="{{{ action('WorkoutController@index') }}}" class="zoom" title="Dead Pool">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+
+                                    <a href="{{{ action('WorkoutController@index') }}}" class="external-link" target="_blank">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Workout Tracking Web-app</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="/img/resume/workout1.png" alt="" class="img-responsive mole">
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="/img/resume/simon1.png" class="zoom" title="Rebus II">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+
+                                    <a href="single-portfolio-2.html" class="external-link" target="_blank">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <!-- //.project-link -->
+
+                                <div class="project-title">
+                                    <h4>Rebus II</h4>
+                                </div>
+                                <!-- //.project-title -->
+
+                                <img src="/img/resume/simon1.png" alt="" class="img-responsive mole">
+                            </div>
+                            <!-- //.project-wrapper -->
+                        </div>
+                        <!-- //.item -->
                     </div>
-                    <!-- //.col-md-12 -->
+                    <!-- //.row -->
                 </div>
-                <!-- //.row -->
-            </div>
-            <!-- //.section content -->
-        </div>
-        <!-- //.container fluid -->
-    </section>
     <!-- //. PORTFOLIO SECTION END -->
     <!-- SERVICES SECTION START -->
     <section id="services" class="section">

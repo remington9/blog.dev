@@ -873,6 +873,11 @@ header.hero.parallax-yes > .parallax > .bcg {
   margin-top: 30px;
 }
 
+.mole{
+  height: 430px;
+  min-width: 363px;
+}
+
 .portfolio .item {
   position: relative;
   padding: 0px;

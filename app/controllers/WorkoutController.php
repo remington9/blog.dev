@@ -37,7 +37,7 @@ class WorkoutController extends BaseController {
 
 
 			$post = new Workout();
-		    $post->person = Input::get('person');
+		    $post->person = Auth::user()->first_name;
 			$post->bench = Input::get('bench');
 			$post->bench_sets = Input::get('bench_sets');
 			$post->bench_reps = Input::get('bench_reps');

@@ -15,6 +15,9 @@ Route::get('/','HomeController@showWelcome');
 //navbar routes
 Route::get('/contact', 'HomeController@showContact');
 Route::get('/resume', 'HomeController@showResume');
+Route::get('/mole', 'HomeController@showWhackamole');
+Route::get('/simon', 'HomeController@showSimon');
+Route::get('/weather', 'HomeController@showWeather');
 
 //posts routes
 Route::resource('posts', 'PostsController');

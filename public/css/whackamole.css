@@ -1,0 +1,68 @@
+#wrapper{
+	float: left;
+	position: relative;
+	width: 600px;
+	background: url(/img/scanner.png) center no-repeat;
+	cursor: url('/../img/goku.gif')45 15 ,auto !important;
+}
+.empty{
+	float: left;
+	width: 200px;
+	height: 200px;
+	opacity: 0;
+}
+#header{
+	background: url(/img/Dragon_Ball_logo.png);
+	width: 1000px;
+	height: 376px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent !important;
+}
+#clearbackground, br{
+	background-color: transparent !important;
+	font-size: 25px;
+}
+html{
+	background: url(/img/landscape.jpeg) center no-repeat;
+}
+.btn{
+	color: black;
+}
+.mole{
+opacity: 1;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+
+#asides{
+	float: left;
+	width: 483px;
+	height: 891px;
+	background: url(/img/Krillin.png) center no-repeat;
+}
+#buttons{
+	float: left;
+	width: 350px;
+	
+}
+#start,#timer{
+	font-size: 25px;
+}
+#gathered{
+	font-size: 35px;
+}
+.thumbnail{
+	width: 500px;
+	height: 375px;
+	background: url(/img/krillinlives.gif);
+}
+.thumbnail2{
+	background: url(/img/badguys1.jpg);
+	width: 500px;
+	height: 800px;
+
+}
+

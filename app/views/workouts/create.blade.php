@@ -2,14 +2,9 @@
 
 @section('content')
 
+<h2>{{{ Auth::user()->first_name }}}</h2><br>
 {{ Form::open(array('action' => 'WorkoutController@store')) }}
-    <div class="form-group @if($errors->has('person')) has-error @endif">
-        <label class="control-label" for="person">Person</label>
-        <select name="person" class="form-control input-lg">
-            <option>Remington</option>
-            <option>Zakk</option>
-        </select>
-    </div>
+    
     <div class="form-group col-xs-4 @if($errors->has('bench')) has-error @endif">
         <label class="control-label" for="bench">Bench Weight</label>
         <select class="form-control input-lg @if($errors->has('bench')) has-error @endif" name="bench">
