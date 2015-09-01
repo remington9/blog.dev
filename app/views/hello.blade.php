@@ -26,7 +26,7 @@
               <h3 class="masthead-brand">Welcome</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="{{{action('HomeController@showResume')}}}">Resume</a></li>
+                  <li><a href="{{{action('HomeController@showResume')}}}">Resume</a></li>
                   <li><a href="{{{ action('PostsController@index') }}}">Blog</a></li>
                   <li><a href="{{{ action('HomeController@showContact') }}}">Contact</a></li>
                 </ul>
