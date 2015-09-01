@@ -20,10 +20,11 @@
                 <a class="blog-nav-item" href="#">How-To</a>
                 <a class="blog-nav-item" href="{{{action('WorkoutController@profile')}}}">Profile</a>
                 @if(Auth::check())
-                        <a class="blog-nav-item" href="{{{action('WorkoutController@doLogout')}}}">Logout</a>
-                    @else
-                        <a class="blog-nav-item" href="{{{action('WorkoutController@showLogin')}}}">Login</a>
-                    @endif
+                    <a class="blog-nav-item" href="{{{action('WorkoutController@doLogout')}}}">Logout</a>
+                    <a class="blog-nav-item" href="{{{action('WorkoutController@create')}}}">Create</a>
+                @else
+                    <a class="blog-nav-item" href="{{{action('WorkoutController@showLogin')}}}">Login</a>
+                @endif
             </nav>
         </div>
     </div>
