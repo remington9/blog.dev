@@ -3,11 +3,8 @@ $(function(){
 
 	"use strict";
  
- 	console.log('test');
 
  navigator.geolocation.getCurrentPosition(function(position){
-
- 	console.log(position);
 
     		//MAKES AJEX REQUEST FOR LAT AND LONG
 			var ajaxReq = $.get("http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&cnt=3", {
