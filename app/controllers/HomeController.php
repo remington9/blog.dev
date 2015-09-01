@@ -35,6 +35,11 @@ class HomeController extends BaseController {
 		return View::make('whackamole');
 	}
 
+	public function showAdlisterpics()
+	{
+		return View::make('adlisterpics');
+	}
+
 	public function showWeather()
 	{
 		return View::make('weather_map');

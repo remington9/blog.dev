@@ -43,7 +43,7 @@ $(function(){
 			timer-=1;
 			$('#timer').text('Time left ' + timer + ' seconds!');
 
-			if(timer == 0){
+			if(timer == 0 && gathered !=7){
 				$('#myModal2').modal('show');
 				$('.reloadPage').on('click', function(){
 				location.reload(true);

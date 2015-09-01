@@ -288,11 +288,11 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="/img/resume/simon1.png" class="zoom" title="The First Encounter">
+                                    <a href="{{{ action('HomeController@showAdlisterpics') }}}" class="zoom" title="The First Encounter">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
 
-                                    <a href="single-portfolio-2.html" class="external-link" target="_blank">
+                                    <a href="{{{ action('HomeController@showAdlisterpics') }}}" class="external-link" target="_blank">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
@@ -483,7 +483,7 @@
                                 <i class="fa fa-coffee"></i>
                             </div>
                             <!-- //.circle -->
-                            <span class="number" data-from="10" data-to="560" data-refresh-interval="30">
+                            <span class="number" data-from="10" data-to="560" data-refresh-interval="6">
                                 560
                             </span>
                             <h4>Cups of Tea</h4>
@@ -494,7 +494,7 @@
                                 <i class="fa fa-clock-o"></i>
                             </div>
                             <!-- //.circle -->
-                            <span class="number" data-from="5" data-to="640" data-refresh-interval="2">
+                            <span class="number" data-from="5" data-to="640" data-refresh-interval="6   ">
                                 640
                             </span>
                             <h4>Hours Worked</h4>
@@ -516,7 +516,7 @@
                                 <i class="fa fa-smile-o"></i>
                             </div>
                             <!-- //.circle -->
-                            <span class="number" data-from="0" data-to="6" data-refresh-interval="1">
+                            <span class="number" data-from="0" data-to="6" data-refresh-interval="3">
                                 6
                             </span>
                             <h4>Happy Clients</h4>

@@ -18,6 +18,7 @@ Route::get('/resume', 'HomeController@showResume');
 Route::get('/mole', 'HomeController@showWhackamole');
 Route::get('/simon', 'HomeController@showSimon');
 Route::get('/weather', 'HomeController@showWeather');
+Route::get('/adlisterpics', 'HomeController@showAdlisterpics');
 
 //posts routes
 Route::resource('posts', 'PostsController');
