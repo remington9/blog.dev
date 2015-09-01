@@ -516,7 +516,7 @@
                                 <i class="fa fa-smile-o"></i>
                             </div>
                             <!-- //.circle -->
-                            <span class="number" data-from="6" data-to="6" data-refresh-interval="1">
+                            <span class="number" data-from="0" data-to="6" data-refresh-interval="1">
                                 6
                             </span>
                             <h4>Happy Clients</h4>
