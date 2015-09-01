@@ -483,8 +483,8 @@
                                 <i class="fa fa-coffee"></i>
                             </div>
                             <!-- //.circle -->
-                            <span class="number" data-from="10" data-to="298" data-refresh-interval="30">
-                                298
+                            <span class="number" data-from="10" data-to="560" data-refresh-interval="30">
+                                560
                             </span>
                             <h4>Cups of Tea</h4>
                         </div>
@@ -494,8 +494,8 @@
                                 <i class="fa fa-clock-o"></i>
                             </div>
                             <!-- //.circle -->
-                            <span class="number" data-from="5" data-to="42" data-refresh-interval="2">
-                                42
+                            <span class="number" data-from="5" data-to="640" data-refresh-interval="2">
+                                640
                             </span>
                             <h4>Hours Worked</h4>
                         </div>
@@ -505,8 +505,8 @@
                                 <i class="fa fa-code"></i>
                             </div>
                             <!-- //.circle -->
-                            <span class="number" data-from="0" data-to="4" data-refresh-interval="3">
-                                4
+                            <span class="number" data-from="0" data-to="6" data-refresh-interval="3">
+                                6
                             </span>
                             <h4>Succesful Projects</h4>
                         </div>
@@ -516,8 +516,8 @@
                                 <i class="fa fa-smile-o"></i>
                             </div>
                             <!-- //.circle -->
-                            <span class="number" data-from="2" data-to="2" data-refresh-interval="1">
-                                2
+                            <span class="number" data-from="6" data-to="6" data-refresh-interval="1">
+                                6
                             </span>
                             <h4>Happy Clients</h4>
                         </div>
