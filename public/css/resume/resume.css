@@ -112,7 +112,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #c80a48;
+  color: #00a69a;
   outline: none;
   text-decoration: none;
 }
@@ -403,7 +403,7 @@ header.hero.parallax-yes > .parallax > .bcg {
   display: table;
   width: 100%;
   height: 100%;
-  background-image: url('../images/bg-hero.jpg');
+  background-image: url('/img/bg-hero.jpg');
   background-repeat: no-repeat;
   background-position: center bottom;
   -webkit-background-size: cover;
@@ -956,7 +956,7 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 .portfolio .item > .project-wrapper > .project-link > a.external-link {
   left: 0;
-  background-color: #c80a48;
+  background-color: #00a69a;
 }
 
 .portfolio .item > .project-wrapper > .project-title > h4 {
@@ -1182,7 +1182,7 @@ button.mfp-arrow:active {
 /*  6.4. SECTION - STRENGHTS
 /*---------------------------------------------------------------------*/
 #strenghts {
-  background-image: url('../images/bg-strenghts.jpg');
+  background-image: url('/img/resume/bg-strenghts.jpg');
   background-position: center top;
 }
 
@@ -1191,7 +1191,7 @@ button.mfp-arrow:active {
 }
 
 #strenghts.parallax-yes > .parallax > .bcg {
-  background-image: url('../images/bg-strenghts.jpg');
+  background-image: url('/img/resume/bg-strenghts.jpg');
 }
 
 #strenghts .section-wrapper > .section-content {
@@ -1370,7 +1370,7 @@ button.mfp-arrow:active {
   left: 0;
   width: 100%;
   height: 20%;
-  background-color: #c80a48;
+  background-color: #00a69a;
 }
 
 .column-chart > .chart > .item > .bar > .item-progress > .title {
@@ -1467,7 +1467,7 @@ button.mfp-arrow:active {
   margin-right: auto;
   margin-left: auto;
   line-height: 40px;
-  background-color: #c80a48;
+  background-color: #00a69a;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
@@ -1580,7 +1580,7 @@ button.mfp-arrow:active {
 /*  6.6. SECTION - REFERENCES
 /*---------------------------------------------------------------------*/
 #references {
-  background-image: url('../images/bg-references.jpg');
+  background-image: url('/img/resume/bg-references.jpg');
 }
 
 #references.parallax-yes {
@@ -1588,7 +1588,7 @@ button.mfp-arrow:active {
 }
 
 #references.parallax-yes > .parallax > .bcg {
-  background-image: url('../images/bg-references.jpg');
+  background-image: url('/img/resume/bg-references.jpg');
 }
 
 #references .section-wrapper > .section-content {
@@ -1628,7 +1628,7 @@ button.mfp-arrow:active {
   height: 45px;
   line-height: 47px;
   margin-bottom: -8px;
-  background-color: #c80a48;
+  background-color: #00a69a;
   font-family: 'icomoon';
   font-size: 18px;
   text-align: center;
@@ -1830,7 +1830,7 @@ button.mfp-arrow:active {
   line-height: 40px;
   margin-top: -40px;
   margin-left: -20px;
-  background-color: #c80a48;
+  background-color: #00a69a;
   font-size: 14px;
   font-weight: 700;
   text-align: center;
@@ -1911,7 +1911,7 @@ button.mfp-arrow:active {
   height: 40px;
   line-height: 40px;
   margin-top: -20px;
-  background-color: #c80a48;
+  background-color: #00a69a;
   font-size: 14px;
   font-weight: 700;
   text-align: center;
@@ -1974,7 +1974,7 @@ button.mfp-arrow:active {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  background-color: #c80a48;
+  background-color: #00a69a;
   font-size: 28px;
   text-align: center;
   border-radius: 50%;
@@ -2447,7 +2447,7 @@ button.mfp-arrow:active {
   width: 100%;
   height: 55px;
   text-align: center;
-  background-color: #c80a48;
+  background-color: #00a69a;
   border-bottom: 2px solid #970837;
   opacity: 0.8;
 }
