@@ -30,6 +30,7 @@ Route::get('/logout', 'HomeController@doLogout');
 //Workout
 Route::resource('workout', 'WorkoutController');
 Route::get('/profile', 'WorkoutController@profile');
+Route::get('/howTo', 'WorkoutController@howTo');
 
 Route::get('/loginWO', 'WorkoutController@showLogin');
 Route::post('/loginWO', 'WorkoutController@doLogin');

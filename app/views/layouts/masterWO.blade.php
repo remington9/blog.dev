@@ -17,7 +17,7 @@
             <nav class="blog-nav">
                 <a class="blog-nav-item" href="{{{action('WorkoutController@index')}}}">Home</a>
                 <a class="blog-nav-item" href="#">Forum</a>
-                <a class="blog-nav-item" href="#">How-To</a>
+                <a class="blog-nav-item" href="{{{action('WorkoutController@howTo')}}}">How-To</a>
                 <a class="blog-nav-item" href="{{{action('WorkoutController@profile')}}}">Profile</a>
                 @if(Auth::check())
                     <a class="blog-nav-item" href="{{{action('WorkoutController@doLogout')}}}">Logout</a>

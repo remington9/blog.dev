@@ -612,13 +612,13 @@
                         <h3>
                             My Education
                             <br>
-                            2003 - 2012
+                            2011 - 2015
                         </h3>
 
                         <div class="panel-group resume" id="education">
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2010 - 2012</span>
+                                    <span class="resume-year">2015 - 2015</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -630,7 +630,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Masters Degree - University Name</h4>
+                                            <h4 class="resume-title">Codeup</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -639,7 +639,12 @@
                                     <div id="education1" class="panel-collapse collapse in">
                                         <div class="panel-body text-grey">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                                                Graduate Type: Entry-Level Software Engineer <br>
+                                                Technologies: Proficiency in PHP + JavaScript + Laravel + jQuery. Exposure to MySQL, Linux, Apache/nginx, cloud deployments (<a title="Codeup Full-Stack Syllabus" href="http://codeup.com/codeup-full-stack-syllabus/" target="_blank">Syllabus</a>)<br>
+                                                Duration: 4 months<br>
+                                                Coding hours: Classroom hours during program (480) + study hall hours (288) = 768 total<br>
+                                                Schedule: Full-time: 9am-4pm, Monday through Friday<br>
+                                                Student-to-Teacher Ratio: 8:1, on average
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -652,7 +657,7 @@
 
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2005 - 2008</span>
+                                    <span class="resume-year">2011 - 2013</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -664,7 +669,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Bachelors Degree - University Name</h4>
+                                            <h4 class="resume-title">Worked Towards Nursing Degree -  UTSA</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -673,7 +678,7 @@
                                     <div id="education2" class="panel-collapse collapse">
                                         <div class="panel-body text-grey">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                                                While attending UTSA on a path to get my Bachlors degree in nursing I was required to take a computer class as part of my basics. This is where I initially discovered that I was genuinely interested in web development. My Wife's father has been a Web Developer for over 20 years and before that was a nurse; so I spoke with him and he guided me to some online programming schools.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -686,7 +691,7 @@
 
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2003 - 2005</span>
+                                    <span class="resume-year">2007 - 2011</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -698,7 +703,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Graduation - College Name</h4>
+                                            <h4 class="resume-title">Graduation -  Smithson Valley HS</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -730,13 +735,13 @@
                         <h3>
                             Work Experience
                             <br>
-                            2006 - Now
+                            2011 - Now
                         </h3>
 
                         <div class="panel-group resume" id="work">
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2013 - Now</span>
+                                    <span class="resume-year">2014 - Now</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -748,7 +753,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Senior Designer - Galley La Company</h4>
+                                            <h4 class="resume-title">Senior Developer/ Owner - Domain Builder</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -759,7 +764,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Design of print collateral and websites for various clients and markets, development of new and existing brands, 3D modeling of floor and site plans.
+                                                Owner and developer at <a href="www.domain-builder.com">Domain Builder</a>. A custom website hosting and building company for the average company in need of a strong web pressence.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -772,7 +777,7 @@
 
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2010 - 2013</span>
+                                    <span class="resume-year">2013 - now</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -784,7 +789,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Graphic Designer - Company Name</h4>
+                                            <h4 class="resume-title">Pharmacy Technician - H-E-B</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -808,7 +813,7 @@
 
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2007 - 2010</span>
+                                    <span class="resume-year">2011 - 2013</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -820,7 +825,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">IT Specialist - Company Name</h4>
+                                            <h4 class="resume-title">Pizza Delivery - Pizza Hut</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -844,7 +849,7 @@
 
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2006 - 2007</span>
+                                    <span class="resume-year">2011 - 2013</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -856,7 +861,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Graphic Designer Intern - Company Name</h4>
+                                            <h4 class="resume-title">Pharmacy Technician - Berry Oaks Pharmacy</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -1193,7 +1198,7 @@
 
                                 <span class="percent">85%</span>
 
-                                <h4 class="text-center uppercase">MySQL </h4>
+                                <h4 class="text-center ">MySQL </h4>
                             </div>
                             <!-- //.item -->
                         </div>
@@ -1234,8 +1239,8 @@
                                 <h4 class="uppercase">Brand Marketing</h4>
 
                                 <div class="bar">
-                                    <span class="percent">45%</span>
-                                    <span class="item-progress" data-percent="45"></span>
+                                    <span class="percent">55%</span>
+                                    <span class="item-progress" data-percent="55"></span>
                                 </div>
                                 <!-- //.bar -->
                             </div>
@@ -1245,8 +1250,8 @@
                                 <h4 class="uppercase">Web Development</h4>
 
                                 <div class="bar">
-                                    <span class="percent">65%</span>
-                                    <span class="item-progress" data-percent="65"></span>
+                                    <span class="percent">95%</span>
+                                    <span class="item-progress" data-percent="95"></span>
                                 </div>
                                 <!-- //.bar -->
                             </div>
@@ -1256,8 +1261,8 @@
                                 <h4 class="uppercase">Digital Design</h4>
 
                                 <div class="bar">
-                                    <span class="percent">55%</span>
-                                    <span class="item-progress" data-percent="55"></span>
+                                    <span class="percent">75%</span>
+                                    <span class="item-progress" data-percent="75"></span>
                                 </div>
                                 <!-- //.bar -->
                             </div>
@@ -1273,8 +1278,8 @@
                                 <h4 class="uppercase">Brand Design</h4>
 
                                 <div class="bar">
-                                    <span class="percent">45%</span>
-                                    <span class="item-progress" data-percent="45"></span>
+                                    <span class="percent">75%</span>
+                                    <span class="item-progress" data-percent="75"></span>
                                 </div>
                                 <!-- //.bar -->
                             </div>
@@ -1284,19 +1289,19 @@
                                 <h4 class="uppercase">Internet Marketing</h4>
 
                                 <div class="bar">
-                                    <span class="percent">65%</span>
-                                    <span class="item-progress" data-percent="65"></span>
+                                    <span class="percent">80%</span>
+                                    <span class="item-progress" data-percent="80"></span>
                                 </div>
                                 <!-- //.bar -->
                             </div>
                             <!-- //.item -->
 
                             <div class="item">
-                                <h4 class="uppercase">Video Editing</h4>
+                                <h4 class="uppercase">Photo Editing</h4>
 
                                 <div class="bar">
-                                    <span class="percent">55%</span>
-                                    <span class="item-progress" data-percent="55"></span>
+                                    <span class="percent">75%</span>
+                                    <span class="item-progress" data-percent="75"></span>
                                 </div>
                                 <!-- //.bar -->
                             </div>
@@ -1338,7 +1343,7 @@
                         <!-- ACCOLADES START -->
                         <div class="accolades">
                             <div class="item">
-                                <i class="icon-Twitter"></i>
+                                <i class="fa fa-twitter"></i>
 
                                 <div class="content">
                                     <h3>Marketing Excellence Awards 2014</h3>
@@ -1350,8 +1355,7 @@
                             <!-- //.item -->
 
                             <div class="item">
-                                <i class="icon-Idea-2"></i>
-
+                                <i class="fa fa-lightbulb-o"></i>
                                 <div class="content">
                                     <h3>The "Big Idea" Competition 2012</h3>
 
@@ -1362,7 +1366,7 @@
                             <!-- //.item -->
 
                             <div class="item">
-                                <i class="icon-Brush"></i>
+                                <i class="fa fa-paint-brush"></i>
 
                                 <div class="content">
                                     <h3>Water Seven Art Directors Club Awards 2010</h3>
@@ -1376,8 +1380,7 @@
                             <!-- //.item -->
 
                             <div class="item">
-                                <i class="icon-Funky"></i>
-
+                                <i class="glyphicon glyphicon-headphones"></i>
                                 <div class="content">
                                     <h3>Young Guns Award 2009</h3>
 

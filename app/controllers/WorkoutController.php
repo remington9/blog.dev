@@ -13,7 +13,10 @@ class WorkoutController extends BaseController {
 		return View::make('workouts.index')->with('posts',$posts);
 	}
 
-
+	public function howTo()
+	{
+		return View::make('workouts.howTo');
+	}
 	/**
 	 * Show the form for creating a new resource.
 	 *

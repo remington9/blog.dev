@@ -32,6 +32,10 @@ hr{
   }
 }
 
+.table_box{
+  padding:10px;
+  background-color: #ccc;
+}
 .banner{
   width:100%;
   height: 700px;
