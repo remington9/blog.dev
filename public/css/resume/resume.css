@@ -875,7 +875,7 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 .mole{
   height: 430px;
-  min-width: 363px;
+  min-width: 100%;
 }
 
 .portfolio .item {

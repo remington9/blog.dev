@@ -62,7 +62,7 @@
 	            <div class="navbar-collapse collapse berg-collapse">
 	                <ul class="nav navbar-nav">
 	                    <li class="page-scroll">
-	                        <a href="#home">Home</a>
+	                        <a href="{{{action('HomeController@showContact')}}}">Home</a>
 	                    </li>
 	                    <li class="page-scroll">
 	                        <a href="#profile">Profile</a>
