@@ -108,7 +108,7 @@
             <p>Find the number of reps to concentric failure that you can perform with a certain weight.  In other words, if you can only do eight reps with a certain weight and could not possibly do another full rep, that is your point of failure. Find the percentage associated with that number of repetitions from the table above.</p>
         </div>
         <div class="col-md-4">
-            <div class="table_box">
+            <div class="well">
             <h4 class="article-small-title" style="color:#00aeef; text-align:center;"><u>1 Rep Max Percentages</u></h4>
             <table class=" table table-striped table-bordered">
                 <tbody><tr>
