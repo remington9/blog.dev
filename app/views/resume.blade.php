@@ -1661,7 +1661,7 @@
                         
                         <li>
                             <div class="item">
-                                <a href="#" target="_blank">
+                                <a href="https://www.linkedin.com/pub/remington-williams/105/134/25b" target="_blank">
                                     <i alt="linkedin" class="fa fa-linkedin"></i>
                                 </a>
                             </div>

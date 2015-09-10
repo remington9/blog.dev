@@ -21,6 +21,9 @@ Route::get('/weather', 'HomeController@showWeather');
 Route::get('/adlisterpics', 'HomeController@showAdlisterpics');
 
 //posts routes
+Route::get('/posts/manage', 'PostsController@getManage');
+Route::get('/posts/list', 'PostsController@getlist');
+
 Route::resource('posts', 'PostsController');
 
 //login routes

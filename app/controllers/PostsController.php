@@ -105,6 +105,16 @@ class PostsController extends BaseController {
 		return View::make('posts.show')->with('posts',$post);
 	}
 
+	public function getManage()
+	{
+		return View::make('posts.manage');
+	}
+
+	public function getList()
+	{
+		$posts = Post::with('user')->where('user_id', Auth::id())->get();
+		return Response::json($posts);
+	}
 
 	/**
 	 * Show the form for editing the specified resource.
@@ -147,8 +157,13 @@ class PostsController extends BaseController {
 			$post->title = Input::get('title');
 		    $post->body = Input::get('body');
 		    $post->save();
-	    	Session::flash('successMessage', 'Your post was updated successfully');
-		    return Redirect::action('PostsController@index');
+
+		    if (Request::wantsJson()) {
+		    	return Response::json(array('Status' => 'Success'));
+		    }else{
+		    	Session::flash('successMessage', 'Your post was updated successfully');
+			    return Redirect::action('PostsController@profile');
+			}
 		}
 	}
 
@@ -163,14 +178,20 @@ class PostsController extends BaseController {
 	{
 
 		$post = Post::find($id);
-		if(!$post){
+		Post::find($id)->delete();
+
+		if (Request::wantsJson()) {
+            return Response::json(array('msg'=>'Your post was deleted successfully'));
+        } else {
+            return Redirect::action('PostsController@index');
+        }
+
+        if(!$post){
 			Session::flash('errorMessage', "Something went wrong, no post with id: $id found!");
 			App::abort(404);
 		}
-		Post::find($id)->delete();
 
-    	Session::flash('successMessage', 'Your post was deleted successfully');
-		return Redirect::action('PostsController@index');
+		
 	}
 
 

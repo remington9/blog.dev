@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     @yield('title')
-
+    <meta name="csrf-token" content="{{{ csrf_token() }}}">
     <title>Laravel Blog</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -42,6 +42,10 @@
                         <ul class="dropdown-menu">
                             <li><a href="{{{action('HomeController@showWelcome')}}}">Welcome</a></li>
                             <li><a href="{{{action('HomeController@showContact')}}}">Contact</a></li>
+                            @if(Auth::check())
+                                <li><a href="{{{action('PostsController@create')}}}">Create</a></li>
+                                <li><a href="{{{action('PostsController@getManage')}}}">Profile</a></li>
+                            @endif
                         </ul>
                     </li>
                 </ul>
@@ -134,6 +138,7 @@
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
     @yield('script')
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
