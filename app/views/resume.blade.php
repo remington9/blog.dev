@@ -459,13 +459,13 @@
         <!-- //.container -->
     </section>
     <!-- //SERVICES SECTION END -->
-    <!-- STRENGHTS SECTION START -->
-    <section id="strenghts" class="section bg-image-yes">
+    <!-- STRENGtHS SECTION START -->
+    <section id="strengths" class="section bg-image-yes">
         <div class="container-fluid section-wrapper">
             <div class="section-content">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
-                        <h2 class="section-title uppercase">My Strenghts</h2>
+                        <h2 class="section-title uppercase">My Strengths</h2>
 
                         <p class="section-subtitle">Failure will never overtake me if my determination to succeed is strong enough.</p>
 
@@ -587,7 +587,7 @@
         </div>
         <!-- //.container -->
     </section>
-    <!-- //STRENGHTS SECTION END -->
+    <!-- //STRENGTHS SECTION END -->
     <!-- RESUME SECTION START -->
     <section id="resume" class="section">
         <div class="container section-wrapper">
@@ -1670,8 +1670,8 @@
                         
                         <li>
                             <div class="item">
-                                <a href="#" target="_blank">
-                                    <i alt="dribble" class="fa fa-dribbble"></i>
+                                <a href="https://github.com/remington9" target="_blank">
+                                    <i alt="github" class="fa fa-github"></i>
                                 </a>
                             </div>
                             <!-- //.item -->
