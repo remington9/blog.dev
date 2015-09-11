@@ -460,7 +460,7 @@
     </section>
     <!-- //SERVICES SECTION END -->
     <!-- STRENGHTS SECTION START -->
-    <section id="strengths" class="section bg-image-yes">
+    <section id="strenghts" class="section bg-image-yes">
         <div class="container-fluid section-wrapper">
             <div class="section-content">
                 <div class="row">
