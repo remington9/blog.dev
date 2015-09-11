@@ -459,7 +459,7 @@
         <!-- //.container -->
     </section>
     <!-- //SERVICES SECTION END -->
-    <!-- STRENGtHS SECTION START -->
+    <!-- STRENGHTS SECTION START -->
     <section id="strengths" class="section bg-image-yes">
         <div class="container-fluid section-wrapper">
             <div class="section-content">
@@ -587,7 +587,7 @@
         </div>
         <!-- //.container -->
     </section>
-    <!-- //STRENGTHS SECTION END -->
+    <!-- //STRENGHTS SECTION END -->
     <!-- RESUME SECTION START -->
     <section id="resume" class="section">
         <div class="container section-wrapper">
