@@ -104,7 +104,7 @@
                                 <div class="col-md-12">
                                     <h2 class="section-title uppercase">Hello, my name is Remington.</h2>
                                     <p>
-                                        Remington Williams, 22 years old, born and raised in San Antonio, Texas. Highly motivated creative developer with a yearning for learning.
+                                        Remington Williams, 23 years old, born and raised in San Antonio, Texas. Highly motivated creative developer with a yearning for learning.
                                     </p>
                                     <span class="divider"></span>
                                     <p class="text-grey">
@@ -897,7 +897,7 @@
     
     
     <!-- REFERENCES SECTION START -->
-    <section id="references" class="section bg-image-yes">
+    {{-- <section id="references" class="section bg-image-yes">
         <div class="container-fluid section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -1091,7 +1091,7 @@
             <!-- //.section-content -->
         </div>
         <!-- //.container -->
-    </section>
+    </section> --}}
     <!-- //REFERENCES SECTION END -->
     
     
