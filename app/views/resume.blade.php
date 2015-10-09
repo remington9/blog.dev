@@ -34,7 +34,7 @@
 					<div class="hero-text text-center">
 						<h1 class="small">I'm Remington Williams<span class="blinker"></span></h1>
 						<h1>Creative Developer</h1>
-						<p>22 years old, food addict, husband, and father of 2.</p>
+						<p>23 years old, food addict, husband, and father of 2.</p>
 						<div class="page-scroll">
 							<a href="#profile" class="btn btn-lg btn-custom">Know Me Better</a>
 						</div>
@@ -340,18 +340,18 @@
                                         <i class="fa fa-search-plus"></i>
                                     </a>
 
-                                    <a href="single-portfolio-2.html" class="external-link" target="_blank">
+                                    <a href="airtalkvfr.com" class="external-link" target="_blank">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <!-- //.project-link -->
 
                                 <div class="project-title">
-                                    <h4>Rebus II</h4>
+                                    <h4>Airtalk codeup capstone project</h4>
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="/img/resume/simon1.png" alt="" class="img-responsive mole">
+                                <img src="/img/resume/airtalk.png" alt="" class="img-responsive mole">
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -712,7 +712,7 @@
                                     <div id="education3" class="panel-collapse collapse">
                                         <div class="panel-body text-grey">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                                                
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -800,7 +800,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Design of print collateral and trade show displays, redesign of company website and microsites, design and development of email blasts, development of brands for affiliate organizations.
+                                                As a Pharmacy Tech. at H-E-B I was responsable for answering the phone, taking drop off prescriptions, filling and selling medicine. By doing all of these things I was able to grow in my ability to communicate with clients properly.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -825,7 +825,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Pizza Delivery - Pizza Hut</h4>
+                                            <h4 class="resume-title">Pharmacy Technician - Berry Oaks Pharmacy</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -836,7 +836,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Filming and editing of promotional videos, administration of system and network integrity.
+                                                As a Pharmacy Tech. at Berry Oaks Pharmacy I was responsable for answering the phone, taking drop off prescriptions, filling and selling medicine as well as delivering medicine to offices and houses. By doing all of these things I was able to grow in my ability to communicate with clients properly.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -861,7 +861,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Pharmacy Technician - Berry Oaks Pharmacy</h4>
+                                            <h4 class="resume-title">Pizza Delivery - Pizza Hut</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -872,7 +872,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Redesign of brand guidelines and standards microsite, design of departmental logo lock-ups, photography of products for marketing collateral, design of corporate Twitter layout.
+                                                Working at Pizza Hut helped with my customer satisfaction capabilities.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -1322,7 +1322,7 @@
     
     
     <!-- ACCOLADES SECTION START -->
-    <section id="accolades" class="section">
+    {{-- <section id="accolades" class="section">
         <div class="container section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -1404,7 +1404,7 @@
             <!-- //.section-content -->
         </div>
         <!-- //.container -->
-    </section>
+    </section> --}}
     <!-- //ACCOLADES SECTION END -->
         <!-- MILESTONES SECTION START -->
     <section id="milestones" class="section bg-image-yes">
