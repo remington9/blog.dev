@@ -56,7 +56,7 @@ function displayMap(lat,lng,cityName){
 		$('.locationheader').html('<h2>'+ data.city.name+' '+data.city.country +'</h2>');
             // weather frame 1
             html += '<div><h3>'+ data.list[0].temp.max + '°F/' +data.list[0].temp.min+'°F'+ '</h3>'+'</div>';
-            html += '<div><p>'+'<img src="https://openweathermap.org/img/w/'+ data.list[0].weather[0].icon + '.png">'+'</p>'+'</div>';
+            html += '<div><p>'+'<img src="http://openweathermap.org/img/w/'+ data.list[0].weather[0].icon + '.png">'+'</p>'+'</div>';
 	        html += '<div><p>'+data.list[0].weather[0].main+': '+ data.list[0].weather[0].description + '</p>'+'</div>';
 	        html += '<div><p>'+'Humidity: '+ data.list[0].humidity + '</p>'+'</div>';
 	        html += '<div>'+'<p>'+'Wind: '+ data.list[0].speed +' mph' +'</p>'+'</div>';
@@ -65,7 +65,7 @@ function displayMap(lat,lng,cityName){
 
 	        // weather frame 2
             html = '<div>'+'<h3>'+ data.list[1].temp.max + '°F/' +data.list[1].temp.min+'°F '+'</h3>'+'</div>';
-            html += '<div>'+'<p>'+'<img src="https://openweathermap.org/img/w/'+ data.list[1].weather[0].icon + '.png">'+'</p>'+'</div>';
+            html += '<div>'+'<p>'+'<img src="http://openweathermap.org/img/w/'+ data.list[1].weather[0].icon + '.png">'+'</p>'+'</div>';
 	        html += '<div>'+'<p>'+data.list[1].weather[0].main+': '+ data.list[1].weather[0].description + '</p>'+'</div>';
 	        html += '<div>'+'<p>'+'Humidity: '+ data.list[1].humidity + '</p>'+'</div>';
 	        html += '<div>'+'<p>'+'Wind: '+ data.list[1].speed +' mph' +'</p>'+'</div>';
@@ -74,7 +74,7 @@ function displayMap(lat,lng,cityName){
 
 	        // weather frame 3            
             html = '<div>'+'<h3>'+ data.list[2].temp.max + '°F/' +data.list[2].temp.min+'°F'+ '</h3>'+'</div>';
-            html += '<div>'+'<p>'+'<img src="https://openweathermap.org/img/w/'+ data.list[2].weather[0].icon + '.png">'+'</p>'+'</div>';
+            html += '<div>'+'<p>'+'<img src="http://openweathermap.org/img/w/'+ data.list[2].weather[0].icon + '.png">'+'</p>'+'</div>';
 	        html += '<div>'+'<p>'+data.list[2].weather[0].main+': '+ data.list[2].weather[0].description + '</p>'+'</div>';
 	        html += '<div>'+'<p>'+'Humidity: '+ data.list[2].humidity + '</p>'+'</div>';
 	        html += '<div>'+'<p>'+'Wind: '+ data.list[2].speed +' mph' +'</p>'+'</div>';
@@ -93,7 +93,7 @@ function displayMap(lat,lng,cityName){
 	};
 // ======================================
 function weatherDisplay(lat,lng){
-	var ajaxReq = $.get("https://api.openweathermap.org/data/2.5/forecast/daily?lat=" + lat + "&lon=" + lng + "&cnt=3", {
+	var ajaxReq = $.get("http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + lat + "&lon=" + lng + "&cnt=3", {
 					    APPID: "c7b7c1d07f4ebe818d8577bb943809f6",
 					    units: "imperial"
 					});
