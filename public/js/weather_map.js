@@ -7,7 +7,7 @@ $(function(){
  navigator.geolocation.getCurrentPosition(function(position){
 
     		//MAKES AJEX REQUEST FOR LAT AND LONG
-			var ajaxReq = $.get("http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&cnt=3", {
+			var ajaxReq = $.get("https://api.openweathermap.org/data/2.5/forecast/daily?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&cnt=3", {
 			    APPID: "c7b7c1d07f4ebe818d8577bb943809f6",
 			    units: "imperial"
 			});
