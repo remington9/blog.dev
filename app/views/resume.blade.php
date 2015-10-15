@@ -137,7 +137,7 @@
                                 <div class="col-sm-6 col-md-7">
                                     <!-- Button trigger modal -->
                                     <button type="button" class="btn btn-custom btn-lg" data-toggle="modal" data-target="#myModalwrapper">
-                                      Download Resume
+                                      View Resume
                                     </button>
                                 </div>
                                 <!-- //.col-md-6 -->
@@ -179,7 +179,7 @@
                                 <!-- //.project-link -->
 
                                 <div class="project-title">
-                                    <h4>Oxbilt.us</h4>
+                                    <h4>Oxbilt.us Domain name is expired at the moment.</h4>
                                 </div>
                                 <!-- //.project-title -->
 
@@ -251,7 +251,7 @@
                                 <!-- //.project-link -->
 
                                 <div class="project-title">
-                                    <h4>Weather Forcast with integrated Google maps</h4>
+                                    <h4>Weather Forcast with integrated Google maps. Currently not working in Chrome</h4>
                                 </div>
                                 <!-- //.project-title -->
 
@@ -340,7 +340,7 @@
                                         <i class="fa fa-search-plus"></i>
                                     </a>
 
-                                    <a href="airtalkvfr.com" class="external-link" target="_blank">
+                                    <a href="http://airtalkvfr.com" class="external-link" target="_blank">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
@@ -492,12 +492,12 @@
                                 <!-- //.item -->
 
                                 <div class="item">
-                                    <h4>Preety Good</h4>
+                                    <h4>Great</h4>
                                 </div>
                                 <!-- //.item -->
 
                                 <div class="item">
-                                    <h4>Good</h4>
+                                    <h4>Preety Good</h4>
                                 </div>
                                 <!-- //.item -->
 
@@ -800,7 +800,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                As a Pharmacy Tech. at H-E-B I was responsable for answering the phone, taking drop off prescriptions, filling and selling medicine. By doing all of these things I was able to grow in my ability to communicate with clients properly.
+                                                As a Pharmacy Tech. at H-E-B I was responsible for answering the phone, taking drop off prescriptions, filling and selling medicine. By doing all of these things I was able to grow in my ability to communicate with clients properly.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -836,7 +836,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                As a Pharmacy Tech. at Berry Oaks Pharmacy I was responsable for answering the phone, taking drop off prescriptions, filling and selling medicine as well as delivering medicine to offices and houses. By doing all of these things I was able to grow in my ability to communicate with clients properly.
+                                                As a Pharmacy Tech. at Berry Oaks Pharmacy I was responsible for answering the phone, taking drop off prescriptions, filling and selling medicine as well as delivering medicine to offices and houses. By doing all of these things I was able to grow in my ability to communicate with clients properly.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -1487,7 +1487,7 @@
                     <div class="col-md-12 text-center">
                         <h2 class="section-title uppercase">Work Process</h2>
                         <p class="section-subtitle">
-                            As a human being, I'm work in process.
+                            
                         </p>
                         <span class="divider center"></span>
                     </div>
@@ -1497,12 +1497,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <p class="text-grey text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            
                         </p>
                     </div>
                     <!-- //.col-md-12 -->
@@ -1569,7 +1564,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <p class="text-grey text-justify">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                            
                         </p>
                     </div>
                     <!-- //.col-md-12 -->
@@ -1707,18 +1702,20 @@
     <!-- //FOOTER END -->
     <!-- Modal -->
     <div class="modal fade" id="myModalwrapper" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Download Resume</h4>
+            <h4 class="modal-title" id="myModalLabel">View Resume</h4>
           </div>
           <div class="modal-body">
-            I will be uploading a pdf copy of my resume here later!
+            <div id="wrapper">
+                <iframe style="width:100%; height:600px;" src="/img/resume/Resume.pdf"></iframe>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save to Downloads</button>
+            <a class="btn btn-primary" href="/img/resume/Resume.pdf" download>Download as PDF</a>
           </div>
         </div>
       </div>

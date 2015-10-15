@@ -3,31 +3,35 @@
 @section('content')
 
 <h2>{{{ Auth::user()->first_name }}}</h2><br>
-{{ Form::open(array('action' => 'WorkoutController@store')) }}
+{{ Form::open(array('action' => 'WorkoutController@store', 'name'=> 'workoutCreate','novalidate')) }}
     
-    <div class="form-group col-xs-4 @if($errors->has('bench')) has-error @endif">
-        <label class="control-label" for="bench">Bench Weight</label>
-        <select class="form-control input-lg @if($errors->has('bench')) has-error @endif" name="bench">
+    <div class="form-group @if($errors->has('bench')) has-error @endif">
+        <label class="control-label" for="bench">Bench</label>
+        <div class="col-xs-4"><br> Weight
+          <select class="form-control input-lg" ng-class="{'has-error': workoutCreate.bench.$invalid && workoutCreate.bench.$touched, 'has-success': workoutCreate.bench.$valid && workoutCreate.bench.$touched}" name="bench">
+              <option value="" selected disabled>Please select</option>
+              @for ($i = 0; $i <= 400; $i+= 5)
+                  <option>{{ $i }} lbs</option>
+              @endfor
+          </select>
+        </div>
+    
+    <div class="@if($errors->has('bench_sets')) has-error @endif">
+        <div class="col-xs-4"><br>Sets
+          <select class="form-control input-lg @if($errors->has('bench_sets')) has-error @endif" name="bench_sets">
             <option value="" selected disabled>Please select</option>
-            @for ($i = 0; $i <= 400; $i+= 5)
-                <option>{{ $i }} lbs</option>
-            @endfor
-        </select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+          </select>
+        </div>
     </div>
-    <div class="form-group col-xs-4 @if($errors->has('bench_sets')) has-error @endif">
-        <label class="control-label" for="bench_sets">Bench Sets</label>
-        <select class="form-control input-lg @if($errors->has('bench_sets')) has-error @endif" name="bench_sets">
-          <option value="" selected disabled>Please select</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-        </select>
-    </div>
+  </div>
     <div class="form-group col-xs-4 @if($errors->has('bench_reps')) has-error @endif">
         <label class="control-label" for="bench_reps">Bench Reps</label>
         <select class="form-control input-lg @if($errors->has('bench_reps')) has-error @endif" name="bench_reps">

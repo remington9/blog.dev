@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/css/blog/blog.css">
 </head>
-<body>
+<body ng-app="workoutCreate">
     <div class="blog-masthead">
         <div class="container">
             <nav class="blog-nav">
@@ -55,9 +55,11 @@
             <a href="#">Back to top</a>
         </p>
     </footer>
+    <script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/js/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/js/workout_angular.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

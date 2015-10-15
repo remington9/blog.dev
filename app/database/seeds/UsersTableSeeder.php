@@ -30,7 +30,7 @@ class UsersTableSeeder extends Seeder {
             $user->first_name = $faker->firstName;
             $user->last_name = $faker->lastName;
             $user->email = $faker->email;
-            $user->password = $faker->password;
+            $user->password = $_ENV['USER_PASS'];
             $user->save();
         }
     }

@@ -11,7 +11,7 @@
         </div>
         <div class="form-group @if($errors->has('password')) has-error @endif">
             {{ Form::label('password', 'Password') }}
-            {{ Form::text('password', null, ['class' => 'form-control']) }}
+            {{ Form::password('password', ['class' => 'form-control']) }}
         </div>
         <button class="btn btn-primary btn-block">Login</button>
         {{ Form::close() }}
