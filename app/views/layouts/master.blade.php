@@ -3,7 +3,7 @@
 <head>
     @yield('title')
     <meta name="csrf-token" content="{{{ csrf_token() }}}">
-    <title>Laravel Blog</title>
+    <title>Laravel Blog2</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
