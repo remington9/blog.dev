@@ -39,41 +39,37 @@ class WorkoutController extends BaseController {
 
 
 
+
+		$workouts = [
+				'bench',
+				'curl',
+				'tris',
+				'squat',
+				'calves',
+				'military_press',
+				'deadlift',
+				'hang_clean',
+				'push_ups',
+				'sit_ups',
+				'pull_ups'
+		];
+
+        $input = Input::all();
+
+		foreach ($workouts as $workout){
+
+			if ($input["$workout" . "_weight"] != ''){
+				$rules["$workout" . "_reps"] = "required";
+                $rules["$workout" . "_sets"] = "required";
+            }
+		}
+		dd($rules);
+
+
+
+
 			$post = new Workout();
 		    $post->person = Auth::user()->first_name;
-			$post->bench = Input::get('bench');
-			$post->bench_sets = Input::get('bench_sets');
-			$post->bench_reps = Input::get('bench_reps');
-			$post->curl = Input::get('curl');
-			$post->curl_sets = Input::get('curl_sets');
-			$post->curl_reps = Input::get('curl');
-			$post->tris = Input::get('tris');
-			$post->tris_sets = Input::get('tris_sets');
-			$post->tris_reps = Input::get('tris_reps');
-			$post->squat = Input::get('squat');
-			$post->squat_sets = Input::get('squat_sets');
-			$post->squat_reps = Input::get('squat_reps');
-			$post->calves = Input::get('calves');
-			$post->calves_sets = Input::get('calves_sets');
-			$post->calves_reps = Input::get('calves_reps');
-			$post->military_press = Input::get('military_press');
-			$post->military_press_sets = Input::get('military_press_sets');
-			$post->military_press_reps = Input::get('military_press_reps');
-			$post->deadlift = Input::get('deadlift');
-			$post->deadlift_sets = Input::get('deadlift_sets');
-			$post->deadlift_reps = Input::get('deadlift_reps');
-			$post->hang_clean = Input::get('hang_clean');
-			$post->hang_clean_sets = Input::get('hang_clean_sets');
-			$post->hang_clean_reps = Input::get('hang_clean_reps');
-			$post->push_ups = Input::get('push_ups');
-			$post->push_ups_sets = Input::get('push_ups_sets');
-			$post->push_ups_reps = Input::get('push_ups_reps');
-			$post->sit_ups = Input::get('sit_ups');
-			$post->sit_ups_sets = Input::get('sit_ups_sets');
-			$post->sit_ups_reps = Input::get('sit_ups_reps');
-			$post->pull_ups = Input::get('pull_ups');
-			$post->pull_ups_sets = Input::get('pull_ups_sets');
-			$post->pull_ups_reps = Input::get('pull_ups_reps');
 			$post->user_id = Auth::id();
 		    $post->save();
 

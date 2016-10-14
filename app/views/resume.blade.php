@@ -336,22 +336,22 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="/img/resume/simon1.png" class="zoom" title="Rebus II">
+                                    <a href="http://bullnanzabulldogges.com" class="zoom" title="Bullnanza Bulldogges">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
 
-                                    <a href="http://airtalkvfr.com" class="external-link" target="_blank">
+                                    <a href="http://bullnanzabulldogges.com" class="external-link" target="_blank">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <!-- //.project-link -->
 
                                 <div class="project-title">
-                                    <h4>Airtalk codeup capstone project</h4>
+                                    <h4>Mother's OEBD Breader Website</h4>
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="/img/resume/airtalk.png" alt="" class="img-responsive mole">
+                                <img src="/img/resume/screenshot-bullnanzabulldogges.png" alt="" class="img-responsive mole">
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -432,7 +432,7 @@
                                 <i class="fa fa-desktop colored-text"></i>
                                 <h4 class="uppercase">5. Development</h4>
                                 <p class="text-grey">
-                                    Able to program in many languages to maximize the versitility of your websites visual optimization.
+                                    Able to program in many languages to maximize the versatility of your websites visual optimization.
                                 </p>
                             </div>
                             <!-- //.inner-content -->
@@ -741,7 +741,7 @@
                         <div class="panel-group resume" id="work">
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2014 - Now</span>
+                                    <span class="resume-year">2014 - 2016</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -764,7 +764,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Owner and developer at <a href="www.domain-builder.com">Domain Builder</a>. A custom website hosting and building company for the average company in need of a strong web pressence.
+                                                Owner and developer at <a href="http://domain-builder.com">Domain Builder</a>. A custom website hosting and building company for the average company in need of a strong web pressence.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -777,7 +777,7 @@
 
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2013 - now</span>
+                                    <span class="resume-year">2013 - 2015</span>
                                 </div>
                                 <!-- //.resume-year -->
 
@@ -1147,11 +1147,11 @@
                         <div class="col-sm-4 col-md-2">
                             <div class="item">
                                 <div class="circle">
-                                    <span class="item-progress" data-percent="80"></span>
+                                    <span class="item-progress" data-percent="90"></span>
                                 </div>
                                 <!-- //.circle -->
 
-                                <span class="percent">80%</span>
+                                <span class="percent">90%</span>
 
                                 <h4 class="text-center uppercase">Laravel</h4>
                             </div>
