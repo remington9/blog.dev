@@ -2,311 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9582b3b-6f34-449c-8ea4-b03c15928485" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/commands/.gitkeep" afterPath="$PROJECT_DIR$/app/commands/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/packages/.gitkeep" afterPath="$PROJECT_DIR$/app/config/packages/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/.gitkeep" afterPath="$PROJECT_DIR$/app/controllers/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/.gitkeep" afterPath="$PROJECT_DIR$/app/database/migrations/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/.gitkeep" afterPath="$PROJECT_DIR$/app/database/seeds/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/404/404.jpg" afterPath="$PROJECT_DIR$/public/img/404/404.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Dragon_Ball_logo.png" afterPath="$PROJECT_DIR$/public/img/Dragon_Ball_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Krillin.png" afterPath="$PROJECT_DIR$/public/img/Krillin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Sky_cloudy.jpg" afterPath="$PROJECT_DIR$/public/img/Sky_cloudy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/adlister_category.png" afterPath="$PROJECT_DIR$/public/img/adlister_category.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/adlister_category2.png" afterPath="$PROJECT_DIR$/public/img/adlister_category2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/adlister_create.png" afterPath="$PROJECT_DIR$/public/img/adlister_create.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/adlister_edit.png" afterPath="$PROJECT_DIR$/public/img/adlister_edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/adlister_index.png" afterPath="$PROJECT_DIR$/public/img/adlister_index.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/adlister_myaccount.png" afterPath="$PROJECT_DIR$/public/img/adlister_myaccount.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/adlister_single_show.png" afterPath="$PROJECT_DIR$/public/img/adlister_single_show.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/adlister_welcome.png" afterPath="$PROJECT_DIR$/public/img/adlister_welcome.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/badguys1.jpg" afterPath="$PROJECT_DIR$/public/img/badguys1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cellFrieza.jpg" afterPath="$PROJECT_DIR$/public/img/cellFrieza.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/clear_sky.jpg" afterPath="$PROJECT_DIR$/public/img/clear_sky.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cover/bg-milestones.jpg" afterPath="$PROJECT_DIR$/public/img/cover/bg-milestones.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cover/carbackground.jpg" afterPath="$PROJECT_DIR$/public/img/cover/carbackground.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cover/r8.jpg" afterPath="$PROJECT_DIR$/public/img/cover/r8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cover/r82.jpeg" afterPath="$PROJECT_DIR$/public/img/cover/r82.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cover/r82.jpg" afterPath="$PROJECT_DIR$/public/img/cover/r82.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db1.png" afterPath="$PROJECT_DIR$/public/img/db1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db10.png" afterPath="$PROJECT_DIR$/public/img/db10.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db11.png" afterPath="$PROJECT_DIR$/public/img/db11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db2.png" afterPath="$PROJECT_DIR$/public/img/db2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db3.png" afterPath="$PROJECT_DIR$/public/img/db3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db4.png" afterPath="$PROJECT_DIR$/public/img/db4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db5.png" afterPath="$PROJECT_DIR$/public/img/db5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db6.png" afterPath="$PROJECT_DIR$/public/img/db6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db7.png" afterPath="$PROJECT_DIR$/public/img/db7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db8.png" afterPath="$PROJECT_DIR$/public/img/db8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/db9.png" afterPath="$PROJECT_DIR$/public/img/db9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/dragonballs.png" afterPath="$PROJECT_DIR$/public/img/dragonballs.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/ezgif.com-resize.gif" afterPath="$PROJECT_DIR$/public/img/ezgif.com-resize.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/goku.gif" afterPath="$PROJECT_DIR$/public/img/goku.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/krillinlives.gif" afterPath="$PROJECT_DIR$/public/img/krillinlives.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/landscape.jpeg" afterPath="$PROJECT_DIR$/public/img/landscape.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/loading.gif" afterPath="$PROJECT_DIR$/public/img/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/loading2.gif" afterPath="$PROJECT_DIR$/public/img/loading2.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/rainy_days.jpg" afterPath="$PROJECT_DIR$/public/img/rainy_days.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/Resume.pdf" afterPath="$PROJECT_DIR$/public/img/resume/Resume.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/adlister.png" afterPath="$PROJECT_DIR$/public/img/resume/adlister.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/airtalk.png" afterPath="$PROJECT_DIR$/public/img/resume/airtalk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/bg-milestones.jpg" afterPath="$PROJECT_DIR$/public/img/resume/bg-milestones.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/bg-references.jpg" afterPath="$PROJECT_DIR$/public/img/resume/bg-references.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/bg-strenghts.jpg" afterPath="$PROJECT_DIR$/public/img/resume/bg-strenghts.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/harolds-plumbing.png" afterPath="$PROJECT_DIR$/public/img/resume/harolds-plumbing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/main_header_resume2.jpg" afterPath="$PROJECT_DIR$/public/img/resume/main_header_resume2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/oxbilt.png" afterPath="$PROJECT_DIR$/public/img/resume/oxbilt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/profile_pic.jpg" afterPath="$PROJECT_DIR$/public/img/resume/profile_pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/simon.png" afterPath="$PROJECT_DIR$/public/img/resume/simon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/simon1.png" afterPath="$PROJECT_DIR$/public/img/resume/simon1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/weather.png" afterPath="$PROJECT_DIR$/public/img/resume/weather.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/whackamole.png" afterPath="$PROJECT_DIR$/public/img/resume/whackamole.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/workout.png" afterPath="$PROJECT_DIR$/public/img/resume/workout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/resume/workout1.png" afterPath="$PROJECT_DIR$/public/img/resume/workout1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/scanner.png" afterPath="$PROJECT_DIR$/public/img/scanner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/totoro.png" afterPath="$PROJECT_DIR$/public/img/totoro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/totoro2.png" afterPath="$PROJECT_DIR$/public/img/totoro2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/workout/banner.jpg" afterPath="$PROJECT_DIR$/public/img/workout/banner.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/public/js/angular/angular.min.js.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/.gitkeep" afterPath="$PROJECT_DIR$/public/packages/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/auth.php" afterPath="$PROJECT_DIR$/app/config/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/cache.php" afterPath="$PROJECT_DIR$/app/config/cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/compile.php" afterPath="$PROJECT_DIR$/app/config/compile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/local/app.php" afterPath="$PROJECT_DIR$/app/config/local/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/mail.php" afterPath="$PROJECT_DIR$/app/config/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/queue.php" afterPath="$PROJECT_DIR$/app/config/queue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/remote.php" afterPath="$PROJECT_DIR$/app/config/remote.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.php" afterPath="$PROJECT_DIR$/app/config/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/session.php" afterPath="$PROJECT_DIR$/app/config/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/testing/cache.php" afterPath="$PROJECT_DIR$/app/config/testing/cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/testing/session.php" afterPath="$PROJECT_DIR$/app/config/testing/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/view.php" afterPath="$PROJECT_DIR$/app/config/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/workbench.php" afterPath="$PROJECT_DIR$/app/config/workbench.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/PostsController.php" afterPath="$PROJECT_DIR$/app/controllers/PostsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/WorkoutController.php" afterPath="$PROJECT_DIR$/app/controllers/WorkoutController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/.gitignore" afterPath="$PROJECT_DIR$/app/database/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_08_22_004603_create_posts_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_08_22_004603_create_posts_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_08_22_004827_create_workout_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_08_22_004827_create_workout_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_08_25_191027_create_users_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_08_25_191027_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_08_25_212818_add_user_id_to_posts.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_08_25_212818_add_user_id_to_posts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_08_27_100947_add_user_id_to_workout.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_08_27_100947_add_user_id_to_workout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/PostsTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/PostsTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/en/pagination.php" afterPath="$PROJECT_DIR$/app/lang/en/pagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/en/reminders.php" afterPath="$PROJECT_DIR$/app/lang/en/reminders.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/en/validation.php" afterPath="$PROJECT_DIR$/app/lang/en/validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/BaseModel.php" afterPath="$PROJECT_DIR$/app/models/BaseModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Post.php" afterPath="$PROJECT_DIR$/app/models/Post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Workout.php" afterPath="$PROJECT_DIR$/app/models/Workout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/start/artisan.php" afterPath="$PROJECT_DIR$/app/start/artisan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/start/global.php" afterPath="$PROJECT_DIR$/app/start/global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/start/local.php" afterPath="$PROJECT_DIR$/app/start/local.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/.gitignore" afterPath="$PROJECT_DIR$/app/storage/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/cache/.gitignore" afterPath="$PROJECT_DIR$/app/storage/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/debugbar/.gitignore" afterPath="$PROJECT_DIR$/app/storage/debugbar/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/app/storage/logs/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/meta/.gitignore" afterPath="$PROJECT_DIR$/app/storage/meta/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/sessions/.gitignore" afterPath="$PROJECT_DIR$/app/storage/sessions/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/views/.gitignore" afterPath="$PROJECT_DIR$/app/storage/views/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/ExampleTest.php" afterPath="$PROJECT_DIR$/app/tests/ExampleTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/TestCase.php" afterPath="$PROJECT_DIR$/app/tests/TestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/adlisterpics.blade.php" afterPath="$PROJECT_DIR$/app/views/adlisterpics.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/calculator.blade.php" afterPath="$PROJECT_DIR$/app/views/calculator.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact.blade.php" afterPath="$PROJECT_DIR$/app/views/contact.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/auth/reminder.blade.php" afterPath="$PROJECT_DIR$/app/views/emails/auth/reminder.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/errors/missing.blade.php" afterPath="$PROJECT_DIR$/app/views/errors/missing.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hello.blade.php" afterPath="$PROJECT_DIR$/app/views/hello.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/master.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/master.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/masterWO.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/masterWO.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/my-first-view.blade.php" afterPath="$PROJECT_DIR$/app/views/my-first-view.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/create-edit-form.blade.php" afterPath="$PROJECT_DIR$/app/views/posts/create-edit-form.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/create.blade.php" afterPath="$PROJECT_DIR$/app/views/posts/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/posts/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.blade.php" afterPath="$PROJECT_DIR$/app/views/posts/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/login.blade.php" afterPath="$PROJECT_DIR$/app/views/posts/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/manage.blade.php" afterPath="$PROJECT_DIR$/app/views/posts/manage.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.blade.php" afterPath="$PROJECT_DIR$/app/views/posts/show.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/resume/Resume.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/resume.blade.php" afterPath="$PROJECT_DIR$/app/views/resume.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rolldice.php" afterPath="$PROJECT_DIR$/app/views/rolldice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/simon.blade.php" afterPath="$PROJECT_DIR$/app/views/simon.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/weather_map.blade.php" afterPath="$PROJECT_DIR$/app/views/weather_map.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/whackamole.blade.php" afterPath="$PROJECT_DIR$/app/views/whackamole.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workouts/create.blade.php" afterPath="$PROJECT_DIR$/app/views/workouts/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workouts/howTo.blade.php" afterPath="$PROJECT_DIR$/app/views/workouts/howTo.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workouts/index.blade.php" afterPath="$PROJECT_DIR$/app/views/workouts/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workouts/login.blade.php" afterPath="$PROJECT_DIR$/app/views/workouts/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workouts/profile.blade.php" afterPath="$PROJECT_DIR$/app/views/workouts/profile.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workouts/show.blade.php" afterPath="$PROJECT_DIR$/app/views/workouts/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/artisan" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/paths.php" afterPath="$PROJECT_DIR$/bootstrap/paths.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/start.php" afterPath="$PROJECT_DIR$/bootstrap/start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/README.md" afterPath="$PROJECT_DIR$/bower_components/angular/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/bower_components/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/index.js" afterPath="$PROJECT_DIR$/bower_components/angular/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/package.json" afterPath="$PROJECT_DIR$/bower_components/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env-template.php" afterPath="$PROJECT_DIR$/env-template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/js/npm.js" afterPath="$PROJECT_DIR$/public/bootstrap-3.3.5-dist/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/blog/blog.css" afterPath="$PROJECT_DIR$/public/css/blog/blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/calculator.css" afterPath="$PROJECT_DIR$/public/css/calculator.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/cover/cover.css" afterPath="$PROJECT_DIR$/public/css/cover/cover.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/resume/animate.css" afterPath="$PROJECT_DIR$/public/css/resume/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/resume/animation.min.css" afterPath="$PROJECT_DIR$/public/css/resume/animation.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/resume/index.html" afterPath="$PROJECT_DIR$/public/css/resume/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/resume/resume.css" afterPath="$PROJECT_DIR$/public/css/resume/resume.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/simplesimon.css" afterPath="$PROJECT_DIR$/public/css/simplesimon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/weather_map.css" afterPath="$PROJECT_DIR$/public/css/weather_map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/whackamole.css" afterPath="$PROJECT_DIR$/public/css/whackamole.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/.bower.json" afterPath="$PROJECT_DIR$/public/js/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/README.md" afterPath="$PROJECT_DIR$/public/js/angular/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/angular-csp.css" afterPath="$PROJECT_DIR$/public/js/angular/angular-csp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/angular.js" afterPath="$PROJECT_DIR$/public/js/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/angular.min.js" afterPath="$PROJECT_DIR$/public/js/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/public/js/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/bower.json" afterPath="$PROJECT_DIR$/public/js/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/index.js" afterPath="$PROJECT_DIR$/public/js/angular/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular/package.json" afterPath="$PROJECT_DIR$/public/js/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/animation.js" afterPath="$PROJECT_DIR$/public/js/animation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/blog.js" afterPath="$PROJECT_DIR$/public/js/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.raptorize.1.0.js" afterPath="$PROJECT_DIR$/public/js/jquery.raptorize.1.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/public/js/jquery/MIT-LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/bower.json" afterPath="$PROJECT_DIR$/public/js/jquery/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/jquery.js" afterPath="$PROJECT_DIR$/public/js/jquery/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/public/js/jquery/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/jquery.min.map" afterPath="$PROJECT_DIR$/public/js/jquery/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax/jsonp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax/parseJSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax/parseXML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax/var/nonce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax/var/rquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/ajax/xhr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/attributes/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/attributes/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/attributes/prop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/attributes/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/attributes/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/core.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/core/access.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/core/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/core/parseHTML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/core/ready.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/core/var/rsingleTag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/addGetHookIf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/curCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/defaultDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/swap.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/swap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/var/cssExpand.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/var/getStyles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/var/isHidden.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/var/isHidden.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/var/rmargin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/data.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/data/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/data/accepts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/data/var/data_priv.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/data/var/data_priv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/data/var/data_user.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/data/var/data_user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/dimensions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/effects.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/effects/Tween.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/effects/animatedSelector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/event.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/event/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/event/alias.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/event/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/exports/amd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/exports/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/intro.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/intro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/manipulation/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/offset.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/outro.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/outro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/queue.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/queue/delay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/selector-native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/selector-sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/selector.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/public/js/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/traversing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/traversing/findFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/arr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/class2type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/concat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/hasOwn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/indexOf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/pnum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/push.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/rnotwhite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/slice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/strundefined.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/strundefined.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/var/toString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/public/js/jquery/src/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/maxrep1calculate.js" afterPath="$PROJECT_DIR$/public/js/maxrep1calculate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/simplesimon.js" afterPath="$PROJECT_DIR$/public/js/simplesimon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/simplesimon.min.js" afterPath="$PROJECT_DIR$/public/js/simplesimon.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/weather_map.js" afterPath="$PROJECT_DIR$/public/js/weather_map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/whackamole.js" afterPath="$PROJECT_DIR$/public/js/whackamole.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/workout_angular.js" afterPath="$PROJECT_DIR$/public/js/workout_angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugins/countTo/jquery.countTo.js" afterPath="$PROJECT_DIR$/public/plugins/countTo/jquery.countTo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugins/easing/jquery.easing.min.js" afterPath="$PROJECT_DIR$/public/plugins/easing/jquery.easing.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugins/jquery.min.js" afterPath="$PROJECT_DIR$/public/plugins/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugins/sticky/jquery.sticky.js" afterPath="$PROJECT_DIR$/public/plugins/sticky/jquery.sticky.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
     </list>
     <ignored path="blog.dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -340,8 +38,8 @@
       <file leaf-file-name="resume.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/resume.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="1149" column="79" selection-start-line="1149" selection-start-column="79" selection-end-line="1149" selection-end-column="79" />
+            <state relative-caret-position="617">
+              <caret line="1682" column="37" selection-start-line="1682" selection-start-column="37" selection-end-line="1682" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -433,6 +131,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="references" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,12 +303,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1448461970480</updated>
-      <workItem from="1474837625331" duration="3881000" />
+      <workItem from="1474837625331" duration="8233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3881000" />
+    <option name="totallyTimeSpent" value="8233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -869,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/resume.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="1149" column="79" selection-start-line="1149" selection-start-column="79" selection-end-line="1149" selection-end-column="79" />
+        <state relative-caret-position="617">
+          <caret line="1682" column="37" selection-start-line="1682" selection-start-column="37" selection-end-line="1682" selection-end-column="37" />
           <folding />
         </state>
       </provider>

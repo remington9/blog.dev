@@ -34,7 +34,7 @@
 					<div class="hero-text text-center">
 						<h1 class="small">I'm Remington Williams<span class="blinker"></span></h1>
 						<h1>Creative Developer</h1>
-						<p>23 years old, food addict, husband, and father of 2.</p>
+						<p>24 years old, food addict, husband, and father of 2.</p>
 						<div class="page-scroll">
 							<a href="#profile" class="btn btn-lg btn-custom">Know Me Better</a>
 						</div>
@@ -104,14 +104,14 @@
                                 <div class="col-md-12">
                                     <h2 class="section-title uppercase">Hello, my name is Remington.</h2>
                                     <p>
-                                        Remington Williams, 23 years old, born and raised in San Antonio, Texas. Highly motivated creative developer with a yearning for learning.
+                                        Remington Williams, 24 years old, born and raised in San Antonio, Texas. Highly motivated creative developer with a yearning for learning.
                                     </p>
                                     <span class="divider"></span>
                                     <p class="text-grey">
-                                        I currently work at H-E-B, where I have been a Pharmacy Technicain for almost 2 years.
+                                        I most recently worked as a junior (LAMP) web developer at Carnegie Technologies here in San Antonio from Nov-2015 to Aug-2016.
                                     </p>
                                     <p class="text-grey">
-                                        I am currently attending school at CodeUp in the downtown San Antonio area.
+                                        I attended Web Developement school at CodeUp in the downtown San Antonio area.
                                     </p>
                                 </div>
                                 <!-- //.col-md-12 -->
@@ -168,22 +168,22 @@
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="http://www.oxbilt.us" class="zoom" title="Oxbilt.us">
+                                    <a href="http://bullnanzabulldogges.com" class="zoom" title="Bullnanza Bulldogges">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
 
-                                    <a href="http://www.oxbilt.us" class="external-link" target="_blank">
+                                    <a href="http://bullnanzabulldogges.com" class="external-link" target="_blank">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <!-- //.project-link -->
 
                                 <div class="project-title">
-                                    <h4>Oxbilt.us Domain name is expired at the moment.</h4>
+                                    <h4>Mother's OEBD Breader Website</h4>
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="/img/resume/oxbilt.png" alt="" class="img-responsive mole">
+                                <img src="/img/resume/screenshot-bullnanzabulldogges.png" alt="" class="img-responsive mole">
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -332,26 +332,25 @@
                             <!-- //.project-wrapper -->
                         </div>
                         <!-- //.item -->
-
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="http://bullnanzabulldogges.com" class="zoom" title="Bullnanza Bulldogges">
+                                    <a href="http://www.oxbilt.us" class="zoom" title="Oxbilt.us">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
 
-                                    <a href="http://bullnanzabulldogges.com" class="external-link" target="_blank">
+                                    <a href="http://www.oxbilt.us" class="external-link" target="_blank">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
                                 <!-- //.project-link -->
 
                                 <div class="project-title">
-                                    <h4>Mother's OEBD Breader Website</h4>
+                                    <h4>Oxbilt.us Domain name is expired at the moment.</h4>
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="/img/resume/screenshot-bullnanzabulldogges.png" alt="" class="img-responsive mole">
+                                <img src="/img/resume/oxbilt.png" alt="" class="img-responsive mole">
                             </div>
                             <!-- //.project-wrapper -->
                         </div>
@@ -669,7 +668,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Worked Towards Nursing Degree -  UTSA</h4>
+                                            <h4 class="resume-title">UTSA</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -678,7 +677,7 @@
                                     <div id="education2" class="panel-collapse collapse">
                                         <div class="panel-body text-grey">
                                             <p>
-                                                While attending UTSA on a path to get my Bachlors degree in nursing I was required to take a computer class as part of my basics. This is where I initially discovered that I was genuinely interested in web development. My Wife's father has been a Web Developer for over 20 years and before that was a nurse; so I spoke with him and he guided me to some online programming schools.
+                                                While attending UTSA I took several graphic design classes, during that time I was required to take a computer class as part of my basics. This is where I initially discovered that I was genuinely interested in web development. My Wife's father has been a Web Developer for over 20 years and before that was a nurse; so I spoke with him and he guided me to some online programming schools and later convinced me to attend Codeup.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -739,6 +738,41 @@
                         </h3>
 
                         <div class="panel-group resume" id="work">
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2015 - 2016</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#work0" data-toggle="collapse" data-parent="#work"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Junior (LAMP) Developer - Carnegie Technologies</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="work0" class="panel-collapse collapse in">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Responsibilities:
+                                                <br>
+                                                Junior Web Developer on a team of 10 working together to build multiple SaaS applications. We completed a Boarding/Private School registration application to aid students and faculty in the application process when signing up for school. We also completed a team based project/task management and event scheduling application similar to ‘Asana’ and ‘Wrike’.
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
                             <div class="resume-item">
                                 <div class="resume-year">
                                     <span class="resume-year">2014 - 2016</span>
@@ -846,42 +880,6 @@
                                 <!-- //.panel -->
                             </div>
                             <!-- //.resume-item -->
-
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2011 - 2013</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#work4" class="collapsed" data-toggle="collapse" data-parent="#work"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Pizza Delivery - Pizza Hut</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="work4" class="panel-collapse collapse">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Responsibilities:
-                                                <br>
-                                                Working at Pizza Hut helped with my customer satisfaction capabilities.
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
                         </div>
                         <!-- //.panel-group -->
                     </div>
@@ -897,7 +895,7 @@
     
     
     <!-- REFERENCES SECTION START -->
-    {{-- <section id="references" class="section bg-image-yes">
+     <section id="references" class="section bg-image-yes">
         <div class="container-fluid section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -911,7 +909,7 @@
                     <!-- //.col-md-12 -->
                 </div>
                 <!-- //.row -->
-                
+
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="flexslider references">
@@ -919,20 +917,20 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-1.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src="/img/resume/references/cy.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
-                                            <h3>Lorena Group</h3>
+                                            <h3>Carnegie Technologies</h3>
 
                                             <p>
-                                                "Berg is officially the man! His level of professionalism and the understanding of the subject matter is the reason i will be looking forward to working with him in the future."
+                                                "Remington is officially the man! His level of professionalism and the understanding of the subject matter is the reason i will be looking forward to working with him again in the future."
                                             </p>
 
                                             <p class="source">
-                                                Eka Sari Lorena
+                                                Cy Rossignol
                                                 <br>
-                                                <span>President Director</span>
+                                                <span>PHP Developer</span>
                                             </p>
                                         </div>
                                         <!-- //.content -->
@@ -944,20 +942,20 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-2.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src="/img/resume/references/rlong.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
-                                            <h3>NET TV</h3>
+                                            <h3>Carnegie Technologies</h3>
 
                                             <p>
-                                                "As always Berg did an excellent job in just few hours. Great communication and fast excecution. Thanks for great work :)"
+                                                "As always Remington did an excellent job in just few hours. Great communication and fast excecution. Thanks for great work :)"
                                             </p>
 
                                             <p class="source">
-                                                Wishnutama Kusubandio
+                                                Richard Long
                                                 <br>
-                                                <span>CO-FOUNDER / CEO</span>
+                                                <span>System Administrator Mac/Microsoft</span>
                                             </p>
                                         </div>
                                         <!-- //.content -->
@@ -969,20 +967,20 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-3.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src="/img/resume/references/luis.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
-                                            <h3>MNC Group</h3>
+                                            <h3>Carnegie Technologies</h3>
 
                                             <p>
-                                                "As always, great creative thinking for the best solution. Berg is by far the most professional and knowledgeable provider I worked with. I will hire him again :)"
+                                                "Great creative thinking for the best solution. Remington is by far the most professional and knowledgeable developer I've worked with. I would love to work with him again :)"
                                             </p>
 
                                             <p class="source">
-                                                Hary Tanoesoedibjo
+                                                Luis Perez
                                                 <br>
-                                                <span>President Director</span>
+                                                <span>PHP Developer</span>
                                             </p>
                                         </div>
                                         <!-- //.content -->
@@ -994,20 +992,20 @@
                                 <div class="item">
                                     <div class="animated" data-animation-effect="flipInX">
                                         <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-4.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
+                                            <img src="/img/resume/references/dberry.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
                                         </div>
 
                                         <div class="content">
-                                            <h3>CT Corp</h3>
+                                            <h3>Carnegie Technologies</h3>
 
                                             <p>
-                                                "We called on Berg to help us deliver on few projects with tight deadlines. He seamlessly integrated into our workflow and quickly became a key part of our team. Great job!"
+                                                "We called on Remington to help us deliver on few projects with tight deadlines. He seamlessly integrated into our workflow and quickly became a key part of our team. Great job!"
                                             </p>
 
                                             <p class="source">
-                                                Chairul Tanjung
+                                                Daniel Berry
                                                 <br>
-                                                <span>Founder and Chairman</span>
+                                                <span>Lead Sr Software Engineer, Web Designer and Information Architect</span>
                                             </p>
                                         </div>
                                         <!-- //.content -->
@@ -1016,71 +1014,71 @@
                                 </div>
                                 <!-- //.item -->
 
-                                <div class="item">
-                                    <div class="animated" data-animation-effect="flipInX">
-                                        <div class="profile hidden-xs">
-                                            <img src="assets/images/references/profile-image-5.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>
-                                        </div>
+                                {{--<div class="item">--}}
+                                    {{--<div class="animated" data-animation-effect="flipInX">--}}
+                                        {{--<div class="profile hidden-xs">--}}
+                                            {{--<img src="assets/images/references/profile-image-5.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>--}}
+                                        {{--</div>--}}
 
-                                        <div class="content">
-                                            <h3>Mustika Ratu</h3>
+                                        {{--<div class="content">--}}
+                                            {{--<h3>Mustika Ratu</h3>--}}
 
-                                            <p>
-                                                "Berg technical knowledge and branding experience came together and resulted in a site that is not only catching and interesting, but also one that is user-friendly. Thanks again."
-                                            </p>
+                                            {{--<p>--}}
+                                                {{--"Berg technical knowledge and branding experience came together and resulted in a site that is not only catching and interesting, but also one that is user-friendly. Thanks again."--}}
+                                            {{--</p>--}}
 
-                                            <p class="source">
-                                                Mooryati Soedibyo
-                                                <br>
-                                                <span>President Director</span>
-                                            </p>
-                                        </div>
-                                        <!-- //.content -->
-                                    </div>
-                                    <!-- //.animated -->
-                                </div>
-                                <!-- //.item -->
+                                            {{--<p class="source">--}}
+                                                {{--Mooryati Soedibyo--}}
+                                                {{--<br>--}}
+                                                {{--<span>President Director</span>--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                        {{--<!-- //.content -->--}}
+                                    {{--</div>--}}
+                                    {{--<!-- //.animated -->--}}
+                                {{--</div>--}}
+                                {{--<!-- //.item -->--}}
                             </div>
                             <!-- //.slides -->
 
-                            <div class="flexslider-controls">
-                                <ul class="flex-control-nav">
-                                    <li>
-                                        <img src="assets/images/references/profile-image-1.jpg" alt="" class="img-responsive"/>
-                                    </li>
+                            {{--<div class="flexslider-controls">--}}
+                                {{--<ul class="flex-control-nav">--}}
+                                    {{--<li>--}}
+                                        {{--<img src="/img/resume/references/cy.jpg" alt="" class="img-responsive"/>--}}
+                                    {{--</li>--}}
 
-                                    <li>
-                                        <img src="assets/images/references/profile-image-2.jpg" alt="" class="img-responsive"/>
-                                    </li>
+                                    {{--<li>--}}
+                                        {{--<img src="/img/resume/references/rlong.jpg" alt="" class="img-responsive"/>--}}
+                                    {{--</li>--}}
 
-                                    <li>
-                                        <img src="assets/images/references/profile-image-3.jpg" alt="" class="img-responsive"/>
-                                    </li>
+                                    {{--<li>--}}
+                                        {{--<img src="/img/resume/references/luis.jpg" alt="" class="img-responsive"/>--}}
+                                    {{--</li>--}}
 
-                                    <li>
-                                        <img src="assets/images/references/profile-image-4.jpg" alt="" class="img-responsive"/>
-                                    </li>
+                                    {{--<li>--}}
+                                        {{--<img src="assets/images/references/profile-image-4.jpg" alt="" class="img-responsive"/>--}}
+                                    {{--</li>--}}
 
-                                    <li>
-                                        <img src="assets/images/references/profile-image-5.jpg" alt="" class="img-responsive"/>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- //.flexslider-controls -->
+                                    {{--<li>--}}
+                                        {{--<img src="assets/images/references/profile-image-5.jpg" alt="" class="img-responsive"/>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                            {{--<!-- //.flexslider-controls -->--}}
 
-                            <ul class="flex-direction-nav-custom list-inline hidden-xs">
-                                <li>
-                                    <a class="flex-prev" href="#">
-                                        <i class="icon-Left-3"></i>
-                                    </a>
-                                </li>
+                            {{--<ul class="flex-direction-nav-custom list-inline hidden-xs">--}}
+                                {{--<li>--}}
+                                    {{--<a class="flex-prev" href="#">--}}
+                                        {{--<i class="icon-Left-3"></i>--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
 
-                                <li>
-                                    <a class="flex-next" href="#">
-                                        <i class="icon-Right-3"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                                {{--<li>--}}
+                                    {{--<a class="flex-next" href="#">--}}
+                                        {{--<i class="icon-Right-3"></i>--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                            {{--</ul>--}}
                         </div>
                         <!-- //.flexslider -->
                     </div>
@@ -1091,7 +1089,7 @@
             <!-- //.section-content -->
         </div>
         <!-- //.container -->
-    </section> --}}
+    </section>
     <!-- //REFERENCES SECTION END -->
     
     
@@ -1672,14 +1670,14 @@
                             <!-- //.item -->
                         </li>
                         
-                        <li>
-                            <div class="item">
-                                <a href="#" target="_blank">
-                                    <i alt="pinterest" class="fa fa-pinterest"></i>
-                                </a>
-                            </div>
-                            <!-- //.item -->
-                        </li>
+                        {{--<li>--}}
+                            {{--<div class="item">--}}
+                                {{--<a href="#" target="_blank">--}}
+                                    {{--<i alt="pinterest" class="fa fa-pinterest"></i>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                            {{--<!-- //.item -->--}}
+                        {{--</li>--}}
                     </ul>
                 </div>
                 <!-- //.col-md-12 -->
