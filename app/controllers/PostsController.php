@@ -6,7 +6,7 @@ class PostsController extends BaseController {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->beforeFilter('auth', array('except' => array('index', 'show')));
+		$this->beforeFilter('auth', array('except' => array('index', 'show', 'source')));
 	}
 
 	/**
@@ -17,32 +17,64 @@ class PostsController extends BaseController {
 	public function index()
 	{
 
-		if(Input::has('search')){
-			//PAGINATES QUERY
-			$query = Post::with('user');
-			$query->WhereHas('user', function($q){
-				$search = Input::get('search');
-				$q->where('title', 'like', "%$search%");
-			});
-			// $query = Post::with('user');
-			$posts = $query->orderBy('updated_at', 'desc')->paginate(4);
-			return View::make('posts.index')->with(['posts'=> $posts]);
-		}elseif(Input::has('user')){
-			//PAGINATES QUERY
-			$query = Post::with('user');
-			$query->WhereHas('user', function($q){
-				$user = Input::get('user');
-				$q->where('first_name', "$user");
-			});
-			// $query = Post::with('user');
-			$posts = $query->orderBy('updated_at', 'desc')->paginate(4);
-			return View::make('posts.index')->with(['posts'=> $posts]);
-		}else{
+//		if(Input::has('search')){
+//			//PAGINATES QUERY
+//			$query = Post::with('user');
+//			$query->WhereHas('user', function($q){
+//				$search = Input::get('search');
+//				$q->where('title', 'like', "%$search%");
+//			});
+//			// $query = Post::with('user');
+//			$posts = $query->orderBy('updated_at', 'desc')->paginate(4);
+//			return View::make('posts.index')->with(['posts'=> $posts]);
+//		}elseif(Input::has('user')){
+//			//PAGINATES QUERY
+//			$query = Post::with('user');
+//			$query->WhereHas('user', function($q){
+//				$user = Input::get('user');
+//				$q->where('first_name', "$user");
+//			});
+//			// $query = Post::with('user');
+//			$posts = $query->orderBy('updated_at', 'desc')->paginate(4);
+//			return View::make('posts.index')->with(['posts'=> $posts]);
+//		}else{
 			//PAGINATES ALL
-			$posts = Post::with('user')->orderBy('updated_at', 'desc')->paginate(4);
-			return View::make('posts.index')->with('posts',$posts);
-		}
+//			$posts = Post::with('user')->orderBy('updated_at', 'desc')->paginate(4);
+//			return View::make('posts.index')->with('posts',$posts);
+
+            $apiRoute = "https://newsapi.org/v1/articles?source=google-news&sortBy=top&apiKey=f425261252874373a36953548a9fd4b7";
+            $posts = json_decode(file_get_contents($apiRoute), true);
+
+            $categories = ['business', 'entertainment', 'gaming', 'general', 'music', 'science-and-nature', 'sport', 'technology'];
+            if($posts['status'] == 'ok'){
+                return View::make('posts.index')->with(compact('posts', 'categories'));
+            }
+            Session::flash('errorMessage', $posts['status']);
+            return View::make('posts.index')->with('posts', $posts);
+
+//		}
 	}
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return Response
+     */
+    public function source($source)
+    {
+
+        $apiRoute = "https://newsapi.org/v1/articles?source=". $source ."&sortBy=top&apiKey=f425261252874373a36953548a9fd4b7";
+//        dd($apiRoute);
+        $posts = json_decode(file_get_contents($apiRoute), true);
+
+        $categories = ['business', 'entertainment', 'gaming', 'general', 'music', 'science-and-nature', 'sport', 'technology'];
+        if($posts['status'] == 'ok'){
+            return View::make('posts.index')->with(compact('posts', 'categories'));
+        }
+        Session::flash('errorMessage', $posts['status']);
+        return View::make('posts.index')->with('posts', $posts);
+
+    }
 
 
 	/**

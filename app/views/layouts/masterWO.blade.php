@@ -16,14 +16,13 @@
         <div class="container">
             <nav class="blog-nav">
                 <a class="blog-nav-item" href="{{{action('WorkoutController@index')}}}">Home</a>
-                <a class="blog-nav-item" href="#">Forum</a>
                 <a class="blog-nav-item" href="{{{action('WorkoutController@howTo')}}}">How-To</a>
-                <a class="blog-nav-item" href="{{{action('WorkoutController@profile')}}}">Profile</a>
                 @if(Auth::check())
-                    <a class="blog-nav-item" href="{{{action('WorkoutController@doLogout')}}}">Logout</a>
-                    <a class="blog-nav-item" href="{{{action('WorkoutController@create')}}}">Create</a>
+                    <a class="blog-nav-item navbar-right" href="{{{action('WorkoutController@profile')}}}">Profile</a>
+                    <a class="blog-nav-item navbar-right" href="{{{action('WorkoutController@doLogout')}}}">Logout</a>
+                    <a class="blog-nav-item navbar-right" href="{{{action('WorkoutController@create')}}}">Create</a>
                 @else
-                    <a class="blog-nav-item" href="{{{action('WorkoutController@showLogin')}}}">Login</a>
+                    <a class="blog-nav-item navbar-right" href="{{{action('WorkoutController@showLogin')}}}">Login</a>
                 @endif
             </nav>
         </div>
@@ -31,8 +30,8 @@
     @yield('banner')
     <main class="container">
         <div class="blog-header">
-            <h1 class="blog-title">Workout Tracker</h1>
-            <p class="lead blog-description">Track all of your daily workouts!</p>
+            <h1 class="blog-title text-center">Workout Tracker</h1>
+            <p class="lead blog-description text-center">Track all of your daily workouts!</p>
         </div>
         <hr>
         <div class="row">

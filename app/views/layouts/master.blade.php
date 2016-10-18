@@ -3,7 +3,7 @@
 <head>
     @yield('title')
     <meta name="csrf-token" content="{{{ csrf_token() }}}">
-    <title>Laravel Blog2</title>
+    <title>Remington's News Blog</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -20,9 +20,8 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"><a href="{{{action('PostsController@index')}}}">Blog</a></span>
+                    <span class="icon-bar"><a href="{{{action('HomeController@showResume')}}}">Resume</a></span>
                 </button>
                 <a class="navbar-brand" href="{{{action('HomeController@showWelcome')}}}">@if (!empty(Auth::user()->first_name)) {{{ Auth::user()->first_name }}}@else {{{ "Welcome" }}}@endif</a>
             </div>
@@ -32,40 +31,40 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{{action('PostsController@index')}}}">Blog</a></li>
                     <li><a href="{{{action('HomeController@showResume')}}}">Resume</a></li>
-                    @if(Auth::check())
-                        <li><a href="{{{action('HomeController@doLogout')}}}">Logout</a></li>
-                    @else
-                        <li><a href="{{{action('HomeController@showLogin')}}}">Login</a></li>
-                    @endif
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{{{action('HomeController@showWelcome')}}}">Welcome</a></li>
-                            <li><a href="{{{action('HomeController@showContact')}}}">Contact</a></li>
-                            @if(Auth::check())
-                                <li><a href="{{{action('PostsController@create')}}}">Create</a></li>
-                                <li><a href="{{{action('PostsController@getManage')}}}">Profile</a></li>
-                            @endif
-                        </ul>
-                    </li>
+                    {{--@if(Auth::check())--}}
+                        {{--<li><a href="{{{action('HomeController@doLogout')}}}">Logout</a></li>--}}
+                    {{--@else--}}
+                        {{--<li><a href="{{{action('HomeController@showLogin')}}}">Login</a></li>--}}
+                    {{--@endif--}}
+                    {{--<li class="dropdown">--}}
+                        {{--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>--}}
+                        {{--<ul class="dropdown-menu">--}}
+                            {{--<li><a href="{{{action('HomeController@showWelcome')}}}">Welcome</a></li>--}}
+                            {{--<li><a href="{{{action('HomeController@showContact')}}}">Contact</a></li>--}}
+                            {{--@if(Auth::check())--}}
+                                {{--<li><a href="{{{action('PostsController@create')}}}">Create</a></li>--}}
+                                {{--<li><a href="{{{action('PostsController@getManage')}}}">Profile</a></li>--}}
+                            {{--@endif--}}
+                        {{--</ul>--}}
+                    {{--</li>--}}
                 </ul>
-                <form class="navbar-form" role="search">
-                    <div class="input-group pull-right">
-                        <input type="text" name="search" class="form-control pull-right" style="width: 300px; margin-right: 35px, border: 1px solid black; background-color: #e5e5e5;" placeholder="Search">
-                        <span class="input-group-btn">
-                            <button type="reset" class="btn btn-default">
-                                <span class="glyphicon glyphicon-remove">
-                                    <span class="sr-only">Close</span>
-                                </span>
-                            </button>
-                            <button type="submit" class="btn btn-default">
-                                <span class="glyphicon glyphicon-search">
-                                    <span class="sr-only">Search</span>
-                                </span>
-                            </button>
-                        </span>
-                    </div>
-                </form>
+                {{--<form class="navbar-form" role="search">--}}
+                    {{--<div class="input-group pull-right">--}}
+                        {{--<input type="text" name="search" class="form-control pull-right" style="width: 300px; margin-right: 35px, border: 1px solid black; background-color: #e5e5e5;" placeholder="Search">--}}
+                        {{--<span class="input-group-btn">--}}
+                            {{--<button type="reset" class="btn btn-default">--}}
+                                {{--<span class="glyphicon glyphicon-remove">--}}
+                                    {{--<span class="sr-only">Close</span>--}}
+                                {{--</span>--}}
+                            {{--</button>--}}
+                            {{--<button type="submit" class="btn btn-default">--}}
+                                {{--<span class="glyphicon glyphicon-search">--}}
+                                    {{--<span class="sr-only">Search</span>--}}
+                                {{--</span>--}}
+                            {{--</button>--}}
+                        {{--</span>--}}
+                    {{--</div>--}}
+                {{--</form>--}}
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -73,8 +72,8 @@
     </div>
     <main class="container">
         <div class="blog-header">
-            <h1 class="blog-title">Remington's Blog</h1>
-            <p class="lead blog-description">The official blog of Remington Williams.</p>
+            <h1 class="blog-title text-center">Remington's All-In-One News</h1>
+            <p class="lead blog-description text-center">The official news blog of all things happening by Remington Williams.</p>
         </div>
         <hr>
         <div class="col-sm-8 blog-main">
@@ -98,38 +97,38 @@
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
             <div class="sidebar-module sidebar-module-inset">
                 <h4>About</h4>
-                <p>Hello I'm Remington Williams <em>Full Stack Web Developer</em>. Welcome to my blog page. Feel free to snoop around and enjoy.</p>
+                <p>Hello I'm Remington Williams <em>Full Stack Web Developer</em>. Welcome to my NewsAPI blog page created using a news feed api that returns real time news articles as a JSON Object that I then parse into the articles you see here. Feel free to snoop around and enjoy.</p>
             </div>
-            <div class="sidebar-module">
-                <h4>Archives</h4>
-                <ol class="list-unstyled">
-                    <li><a href="#">March 2014</a></li>
-                    <li><a href="#">February 2014</a></li>
-                    <li><a href="#">January 2014</a></li>
-                    <li><a href="#">December 2013</a></li>
-                    <li><a href="#">November 2013</a></li>
-                    <li><a href="#">October 2013</a></li>
-                    <li><a href="#">September 2013</a></li>
-                    <li><a href="#">August 2013</a></li>
-                    <li><a href="#">July 2013</a></li>
-                    <li><a href="#">June 2013</a></li>
-                    <li><a href="#">May 2013</a></li>
-                    <li><a href="#">April 2013</a></li>
-                </ol>
-            </div>
-            <div class="sidebar-module">
-                <h4>Elsewhere</h4>
-                <ol class="list-unstyled">
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                </ol>
-            </div>
+            {{--<div class="sidebar-module">--}}
+                {{--<h4>Archives</h4>--}}
+                {{--<ol class="list-unstyled">--}}
+                    {{--<li><a href="#">March 2014</a></li>--}}
+                    {{--<li><a href="#">February 2014</a></li>--}}
+                    {{--<li><a href="#">January 2014</a></li>--}}
+                    {{--<li><a href="#">December 2013</a></li>--}}
+                    {{--<li><a href="#">November 2013</a></li>--}}
+                    {{--<li><a href="#">October 2013</a></li>--}}
+                    {{--<li><a href="#">September 2013</a></li>--}}
+                    {{--<li><a href="#">August 2013</a></li>--}}
+                    {{--<li><a href="#">July 2013</a></li>--}}
+                    {{--<li><a href="#">June 2013</a></li>--}}
+                    {{--<li><a href="#">May 2013</a></li>--}}
+                    {{--<li><a href="#">April 2013</a></li>--}}
+                {{--</ol>--}}
+            {{--</div>--}}
+            {{--<div class="sidebar-module">--}}
+                {{--<h4>Elsewhere</h4>--}}
+                {{--<ol class="list-unstyled">--}}
+                    {{--<li><a href="#">GitHub</a></li>--}}
+                    {{--<li><a href="#">Twitter</a></li>--}}
+                    {{--<li><a href="#">Facebook</a></li>--}}
+                {{--</ol>--}}
+            {{--</div>--}}
         </div>
     </main>
     <footer class="blog-footer">
         <p>
-            Blog template built using <a href="http://getbootstrap.com">Bootstrap</a>.
+            News Api powered by <a href="https://newsapi.org">newsapi.org</a>.
         </p>
         <p>
             <a href="#">Back to top</a>

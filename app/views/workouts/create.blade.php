@@ -73,7 +73,7 @@
         <div class="form-group" ng-class="{'has-warning': workoutCreate.tris_weight.$invalid && workoutCreate.tris_weight.$touched, 'has-success': workoutCreate.tris_weight.$valid && workoutCreate.tris_weight.$touched}">
             <h3 class="control-label col-xs-2" for="curls">Tris</h3>
             <div class="col-xs-3"><br> Weight
-                <select class="form-control input-lg @if($errors->has('tris_weight')) has-error @endif" name="tris">
+                <select class="form-control input-lg @if($errors->has('tris_weight')) has-error @endif" name="tris_weight">
                     <option value="" selected disabled>Please select</option>
                     @for ($i = 0; $i <= 500; $i+= 5)
                         <option>{{ $i }} lbs</option>

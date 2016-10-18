@@ -9,7 +9,7 @@
 @stop
 
 @section('content')
-    <p class="lead blog-description">
+    <p class="lead blog-description text-center">
         A simple form to track a few of your daily workout activities!
     </p>
 @stop
