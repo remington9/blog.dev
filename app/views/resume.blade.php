@@ -902,7 +902,7 @@
                     <div class="col-md-12 text-center">
                         <h2 class="section-title uppercase">References</h2>
 
-                        <p class="section-subtitle">Testimonials are enough to convince people for now.</p>
+                        <p class="section-subtitle">Pier testimonials are enough to convince people for now.</p>
 
                         <span class="divider center"></span>
                     </div>
