@@ -20,10 +20,11 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"><a href="{{{action('PostsController@index')}}}">Blog</a></span>
-                    <span class="icon-bar"><a href="{{{action('HomeController@showResume')}}}">Resume</a></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{{action('HomeController@showWelcome')}}}">@if (!empty(Auth::user()->first_name)) {{{ Auth::user()->first_name }}}@else {{{ "Welcome" }}}@endif</a>
+                <a class="navbar-brand" href="{{{action('HomeController@showWelcome')}}}">Welcome</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,40 +32,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{{action('PostsController@index')}}}">Blog</a></li>
                     <li><a href="{{{action('HomeController@showResume')}}}">Resume</a></li>
-                    {{--@if(Auth::check())--}}
-                        {{--<li><a href="{{{action('HomeController@doLogout')}}}">Logout</a></li>--}}
-                    {{--@else--}}
-                        {{--<li><a href="{{{action('HomeController@showLogin')}}}">Login</a></li>--}}
-                    {{--@endif--}}
-                    {{--<li class="dropdown">--}}
-                        {{--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>--}}
-                        {{--<ul class="dropdown-menu">--}}
-                            {{--<li><a href="{{{action('HomeController@showWelcome')}}}">Welcome</a></li>--}}
-                            {{--<li><a href="{{{action('HomeController@showContact')}}}">Contact</a></li>--}}
-                            {{--@if(Auth::check())--}}
-                                {{--<li><a href="{{{action('PostsController@create')}}}">Create</a></li>--}}
-                                {{--<li><a href="{{{action('PostsController@getManage')}}}">Profile</a></li>--}}
-                            {{--@endif--}}
-                        {{--</ul>--}}
-                    {{--</li>--}}
                 </ul>
-                {{--<form class="navbar-form" role="search">--}}
-                    {{--<div class="input-group pull-right">--}}
-                        {{--<input type="text" name="search" class="form-control pull-right" style="width: 300px; margin-right: 35px, border: 1px solid black; background-color: #e5e5e5;" placeholder="Search">--}}
-                        {{--<span class="input-group-btn">--}}
-                            {{--<button type="reset" class="btn btn-default">--}}
-                                {{--<span class="glyphicon glyphicon-remove">--}}
-                                    {{--<span class="sr-only">Close</span>--}}
-                                {{--</span>--}}
-                            {{--</button>--}}
-                            {{--<button type="submit" class="btn btn-default">--}}
-                                {{--<span class="glyphicon glyphicon-search">--}}
-                                    {{--<span class="sr-only">Search</span>--}}
-                                {{--</span>--}}
-                            {{--</button>--}}
-                        {{--</span>--}}
-                    {{--</div>--}}
-                {{--</form>--}}
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>

@@ -103,7 +103,7 @@
                                 sources += '<div class="col-sm-4 well"><a href="/posts/source/'+ val.id +'" ><img src="' + val.urlsToLogos.small + '" alt="' + val.name +'" class="img-responsive center-block"></a></div>'
                         });
                         $('#modalRow').html(sources + "<style>#modalRow .col-sm-4:nth-child(3n+1) {clear: left;}</style>" );
-                        $('.modal-header').html("<button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button><h2 class='text-center text-capitalize modal-title'>" + sourcesArray[0]['category'] + "</h2>")
+                        $('.modal-header').html("<button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button><h2 class='text-center text-capitalize modal-title'>Select the " + sourcesArray[0]['category'] + " news source you wish to view articles from</h2>")
                         $('.bs-example-modal-lg').modal('handleUpdate');
                     }
 

@@ -56,7 +56,7 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <a class="navbar-brand visible-xs visible-sm" href="#page-top">Williams</a>
+	                <a class="navbar-brand visible-xs visible-sm" href="#page-top">R. Williams</a>
 	            </div>
 	            <!-- //.navbar-header -->
 	            <div class="navbar-collapse collapse berg-collapse">
@@ -949,7 +949,7 @@
                                             <h3>Carnegie Technologies</h3>
 
                                             <p>
-                                                "As always Remington did an excellent job in just few hours. Great communication and fast excecution. Thanks for great work :)"
+                                                "Remington always did an excellent job. Great communication and fast excecution. Great working with you!"
                                             </p>
 
                                             <p class="source">
@@ -1013,72 +1013,8 @@
                                     <!-- //.animated -->
                                 </div>
                                 <!-- //.item -->
-
-                                {{--<div class="item">--}}
-                                    {{--<div class="animated" data-animation-effect="flipInX">--}}
-                                        {{--<div class="profile hidden-xs">--}}
-                                            {{--<img src="assets/images/references/profile-image-5.jpg" alt="" class="img-responsive img-circle img-thumbnail"/>--}}
-                                        {{--</div>--}}
-
-                                        {{--<div class="content">--}}
-                                            {{--<h3>Mustika Ratu</h3>--}}
-
-                                            {{--<p>--}}
-                                                {{--"Berg technical knowledge and branding experience came together and resulted in a site that is not only catching and interesting, but also one that is user-friendly. Thanks again."--}}
-                                            {{--</p>--}}
-
-                                            {{--<p class="source">--}}
-                                                {{--Mooryati Soedibyo--}}
-                                                {{--<br>--}}
-                                                {{--<span>President Director</span>--}}
-                                            {{--</p>--}}
-                                        {{--</div>--}}
-                                        {{--<!-- //.content -->--}}
-                                    {{--</div>--}}
-                                    {{--<!-- //.animated -->--}}
-                                {{--</div>--}}
-                                {{--<!-- //.item -->--}}
                             </div>
-                            <!-- //.slides -->
 
-                            {{--<div class="flexslider-controls">--}}
-                                {{--<ul class="flex-control-nav">--}}
-                                    {{--<li>--}}
-                                        {{--<img src="/img/resume/references/cy.jpg" alt="" class="img-responsive"/>--}}
-                                    {{--</li>--}}
-
-                                    {{--<li>--}}
-                                        {{--<img src="/img/resume/references/rlong.jpg" alt="" class="img-responsive"/>--}}
-                                    {{--</li>--}}
-
-                                    {{--<li>--}}
-                                        {{--<img src="/img/resume/references/luis.jpg" alt="" class="img-responsive"/>--}}
-                                    {{--</li>--}}
-
-                                    {{--<li>--}}
-                                        {{--<img src="assets/images/references/profile-image-4.jpg" alt="" class="img-responsive"/>--}}
-                                    {{--</li>--}}
-
-                                    {{--<li>--}}
-                                        {{--<img src="assets/images/references/profile-image-5.jpg" alt="" class="img-responsive"/>--}}
-                                    {{--</li>--}}
-                                {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--<!-- //.flexslider-controls -->--}}
-
-                            {{--<ul class="flex-direction-nav-custom list-inline hidden-xs">--}}
-                                {{--<li>--}}
-                                    {{--<a class="flex-prev" href="#">--}}
-                                        {{--<i class="icon-Left-3"></i>--}}
-                                    {{--</a>--}}
-                                {{--</li>--}}
-
-                                {{--<li>--}}
-                                    {{--<a class="flex-next" href="#">--}}
-                                        {{--<i class="icon-Right-3"></i>--}}
-                                    {{--</a>--}}
-                                {{--</li>--}}
-                            {{--</ul>--}}
                         </div>
                         <!-- //.flexslider -->
                     </div>
@@ -1735,6 +1671,9 @@
     <script src="/js/main.js"></script>
     <script src="/js/animation.js"></script>
     <script>
+            $('.flexslider').flexslider({
+                controlNav: false
+            });
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
