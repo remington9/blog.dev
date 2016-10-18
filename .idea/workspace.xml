@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9582b3b-6f34-449c-8ea4-b03c15928485" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/weather_map.blade.php" afterPath="$PROJECT_DIR$/app/views/weather_map.blade.php" />
     </list>
     <ignored path="blog.dev.iws" />
@@ -283,12 +284,12 @@
       <option name="presentableId" value="Default" />
       <updated>1448461970480</updated>
       <workItem from="1474837625331" duration="8233000" />
-      <workItem from="1476483694171" duration="26134000" />
+      <workItem from="1476483694171" duration="27418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34367000" />
+    <option name="totallyTimeSpent" value="35651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />

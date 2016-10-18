@@ -6,7 +6,7 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		<!-- google api -->
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJqD7ltCM7uvpVzw8frkHToYBCkx2kcBM"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEg4qvEeW3_xxbjh6WyXWQPH-wEi-rHXA"></script>
 		<link rel="stylesheet" type="text/css" href="/css/weather_map.css">
 		<title>Weather API Example</title>
 	</head>
