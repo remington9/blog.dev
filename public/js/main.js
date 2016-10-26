@@ -153,7 +153,7 @@ $(function(){
             manualControls: ".flex-control-nav li",
             directionNav : false,
             controlNav: false,
-            slideshowSpeed: 5000,
+            slideshowSpeed: 8000,
             after: function(slider){
                 if (!slider.playing) {
                     slider.play();
