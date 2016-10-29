@@ -798,7 +798,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Owner and developer at <a href="http://domain-builder.com">Domain Builder</a>. A custom website hosting and building company for the average company in need of a strong web pressence.
+                                                Owner and developer at Domain Builder. A custom website hosting and building company for the average company in need of a strong web presence.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -1544,7 +1544,7 @@
 
                             <h2 class="uppercase">Remington <strong>Williams</strong></h2>
 
-                            <h4 class="text-grey">remingtonwilliams@gmail.com</h4>
+                            <h4 class="text-grey"><a href="mailto:remingtonwilliams@gmail.com">remingtonwilliams@gmail.com</a></h4>
 
                             <span class="divider center"></span>
                         </div>
